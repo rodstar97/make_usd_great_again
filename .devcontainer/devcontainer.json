@@ -1,9 +1,22 @@
 {
     "image":"aswf/ci-vfxall:2024-clang17.0",
+    "customizations": {
+        // Configure properties specific to VS Code.
+        "vscode": {
+          // Add the IDs of extensions you want installed when the container is created.
+          "extensions": [
+            "ms-vscode.cpptools",
+            "ms-vscode.cpptools-extension-pack",
+            "ms-vscode.cpptools-themes",
+            "twxs.cmake",
+            "ms-vscode.cmake-tools",
+            "donjayamanne.git-extension-pack",
+            "ms-python.python",
+            "ms-python.debugpy"
+        ]
+        }
+      },
+    "runArgs": ["--gpus","all"],
 
-
-"runArgs": ["--gpus","all"
-    ],
-
-    "remoteUser": "aswfuser"
+     "remoteUser": "aswfuser"
 }
