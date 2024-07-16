@@ -1,0 +1,3 @@
+/workspaces/make_usd_great_again/scr/01Prims/build/CMakeFiles/Prims01.dir
+/workspaces/make_usd_great_again/scr/01Prims/build/CMakeFiles/edit_cache.dir
+/workspaces/make_usd_great_again/scr/01Prims/build/CMakeFiles/rebuild_cache.dir

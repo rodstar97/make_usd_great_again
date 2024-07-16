@@ -4,7 +4,8 @@
             "name": "MUGA",
             "includePath": [
                 "${workspaceFolder}/**",
-                "/usr/local/include/**"
+                "/usr/local/include/**",
+                "/usr/local/include/python3.11"
             ],
             "defines": [
                 "_DEBUG",

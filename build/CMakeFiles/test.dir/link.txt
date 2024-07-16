@@ -1,1 +1,0 @@
-/usr/bin/g++ -g CMakeFiles/test.dir/scr/main.cpp.o -o test  -Wl,-rpath,/usr/local/lib /usr/local/lib/libpython3.so -lUSD_BOOST_PYTHON-NOTFOUND -lUSD_KIND-NOTFOUND -lUSD_SDF-NOTFOUND -lUSD_TF-NOTFOUND -lUSD_USD-NOTFOUND -lUSD_USDGEOM-NOTFOUND -lUSD_USDUTILS-NOTFOUND 
