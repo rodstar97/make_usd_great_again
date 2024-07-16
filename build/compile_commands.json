@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/work/Projects/CPP/make_usd_great_again/build",
+  "command": "/usr/bin/g++  -I/usr/local/include/python3.11 -g -std=gnu++17 -o CMakeFiles/test.dir/scr/main.cpp.o -c /work/Projects/CPP/make_usd_great_again/scr/main.cpp",
+  "file": "/work/Projects/CPP/make_usd_great_again/scr/main.cpp",
+  "output": "CMakeFiles/test.dir/scr/main.cpp.o"
+}
+]

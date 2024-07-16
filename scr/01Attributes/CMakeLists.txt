@@ -1,5 +1,5 @@
 cmake_minimum_required( VERSION 3.6 )
-project( CPPUSD01 )
+project( make_usd_great_again )
 
 # 2.Configuration
 #add_compile_options(-Wno-deprecated)  # This is just to avoid some spammy warnings

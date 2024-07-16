@@ -1,0 +1,3 @@
+/work/Projects/CPP/make_usd_great_again/build/CMakeFiles/test.dir
+/work/Projects/CPP/make_usd_great_again/build/CMakeFiles/edit_cache.dir
+/work/Projects/CPP/make_usd_great_again/build/CMakeFiles/rebuild_cache.dir
