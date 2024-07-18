@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/workspaces/make_usd_great_again/scr/01Prims/build",
+  "command": "/opt/rh/gcc-toolset-11/root/usr/bin/c++  -I/usr/local/include/python3.11 -std=gnu++17 -o CMakeFiles/Prims01.dir/Prims01.cpp.o -c /workspaces/make_usd_great_again/scr/01Prims/Prims01.cpp",
+  "file": "/workspaces/make_usd_great_again/scr/01Prims/Prims01.cpp",
+  "output": "CMakeFiles/Prims01.dir/Prims01.cpp.o"
+}
+]

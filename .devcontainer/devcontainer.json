@@ -1,10 +1,16 @@
 {
     "image":"aswf/ci-vfxall:2024-clang17.0",
+    "containerEnv": { 
+      "NVIDIA_VISIBLE_DEVICES": "all",
+      "NVIDIA_DRIVER_CAPABILITIES": "graphics,utility,compute"
+    },
+
     "customizations": {
         // Configure properties specific to VS Code.
         "vscode": {
           // Add the IDs of extensions you want installed when the container is created.
-          "extensions": [
+          "extensions":
+          [
             "ms-vscode.cpptools",
             "ms-vscode.cpptools-extension-pack",
             "ms-vscode.cpptools-themes",
@@ -16,7 +22,18 @@
         ]
         }
       },
-    "runArgs": ["--gpus","all"],
+    "runArgs": [
+      "--gpus", "all",
+      "--runtime=nvidia",
+      "--user=1000:1000",
+      "--env='DISPLAY'",
+      "--volume=/home/rf:/home/rf",
+      "--volume=/etc/group:/etc/group:ro",
+      "--volume=/etc/passwd:/etc/passwd:ro",
+      "--volume=/etc/shadow:/etc/shadow:ro",
+      "--volume=/etc/sudoers.d:/etc/sudoers.d:ro",
+      "--volume=/tmp/.X11-unix:/tmp/.X11-unix:rw"
+              ],
 
-     "remoteUser": "aswfuser"
+     "remoteUser": "rf"
 }

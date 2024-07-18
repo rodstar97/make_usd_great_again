@@ -50,4 +50,6 @@ Prims01
 	usd_usdUtils
 	usd_arch
 	usd_vt
+	usd_usdImagingGL
+	usd_gf
 )
