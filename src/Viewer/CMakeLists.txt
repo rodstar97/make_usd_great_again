@@ -71,6 +71,7 @@ target_link_libraries(viewer
 	usd_vt
 	usd_usdImagingGL
 	usd_gf
+    usd_glf
   
     
 )

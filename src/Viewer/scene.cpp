@@ -17,7 +17,7 @@ Scene::Scene() :
 {
 
     mStage = pxr::UsdStage::Open("/workspaces/make_usd_great_again/media/HelloWorld.usda");
-    mRoot = mStage->GetPrimAtPath(pxr::SdfPath("/"));
+    mRoot = mStage->GetPseudoRoot();
     auto cameraPrim = mStage->GetPrimAtPath(pxr::SdfPath("/off/Camera"));
     mCamera = pxr::UsdGeomCamera(cameraPrim).GetCamera(pxr::UsdTimeCode::Default());
     GLint major = 0;
@@ -26,6 +26,16 @@ Scene::Scene() :
     glGetIntegerv(GL_MINOR_VERSION, &minor);
     printf("OpenGL version is %i.%i\n", major, minor);
     
+    pxr::GlfSimpleLight light;
+    light.SetPosition(pxr::GfVec4f(8.0, 10.0, 6.0, 1.0));
+    light.SetDiffuse(pxr::GfVec4f(2.0,2.0, 2.0, 1.0));
+    pxr::GlfSimpleLightVector lights;
+    lights.push_back(light);
+    pxr::GlfSimpleMaterial material;
+    pxr::GfVec4f ambient(0.1, 0.1, 0.1, 1.0);
+    mRenderer.SetLightingState(lights, material, ambient);
+
+
     mParams.frame = 1.0;
     mParams.complexity = 1.1f;
 
@@ -45,12 +55,13 @@ void Scene::draw(int width, int height)
 
     const pxr::GfVec4d viewport(0, 0, width, height);
     mRenderer.SetRenderViewport(viewport);
-    glEnable(GL_LIGHTING);
-    glEnable(GL_LIGHT0);
+    
+    // glEnable(GL_LIGHTING);
+    // glEnable(GL_LIGHT0);
 
-    float position[4] = { 0,10.5,2,0 };
-    glLightfv(GL_LIGHT0, GL_POSITION, position);
-    //mParams.showGuides = pxr:UsdIm
+    // float position[4] = { 0,10.5,2,0 };
+    // glLightfv(GL_LIGHT0, GL_POSITION, position);
+    // //mParams.showGuides = pxr:UsdIm
     //mRenderer.SetLightingStateFromOpenGL();
     mRenderer.SetCameraState(
             viewMat,
