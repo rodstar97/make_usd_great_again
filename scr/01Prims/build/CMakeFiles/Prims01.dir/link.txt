@@ -1,1 +1,0 @@
-/opt/rh/gcc-toolset-11/root/usr/bin/c++ CMakeFiles/Prims01.dir/Prims01.cpp.o -o Prims01  -Wl,-rpath,/usr/local/lib /usr/local/lib/libpython3.11.so /usr/local/lib/libboost_python311.so -lusd_kind -lusd_sdf -lusd_tf -lusd_usd -lusd_usdGeom -lusd_usdUtils -lusd_arch -lusd_vt -lusd_usdImagingGL -lusd_gf 

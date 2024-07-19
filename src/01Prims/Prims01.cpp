@@ -10,7 +10,7 @@
 #include <pxr/usd/usd/stage.h>
 #include <pxr/usdImaging/usdImagingGL/engine.h>
 #include <pxr/base/gf/camera.h>
-#include "pxr/imaging/glf>
+#include "pxr/imaging/garch/glApi.h"
 
 
 void as_usd()
