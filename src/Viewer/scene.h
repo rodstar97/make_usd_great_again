@@ -13,10 +13,12 @@ class Scene
 {
 public:
     Scene();
+    ~Scene();
     // void prepare(float seconds);
     void draw(int width, int height);
     // void click();
     // void cursor(float x, float y);
+    // void set_camera()
 
 private:
     pxr::UsdStageRefPtr mStage;
@@ -31,5 +33,8 @@ private:
     int mWidth;
     int mHeight;
 };
+
+
+
 
 #endif

@@ -4,15 +4,17 @@
 #include <QTimer>
 #include <QMouseEvent>
 
+
 Viewer::Viewer(QWidget* parent) : QOpenGLWidget(parent) 
 { 
+    setMouseTracking(true);
     
 }
 
- Viewer::~Viewer()
- {
+Viewer::~Viewer()
+{
 
- }
+}
 
  void Viewer::initializeGL()
 {
@@ -20,7 +22,7 @@ Viewer::Viewer(QWidget* parent) : QOpenGLWidget(parent)
     QOpenGLFunctions* f = QOpenGLContext::currentContext()->functions();
     // f->glClearColor(1.0f, 1.0f, 1.0f, 1.0f);
     glEnable(GL_DEPTH_TEST);
-    usd_scene = new Scene;
+    //usd_scene = new Scene;
     const GLubyte* renderer = glGetString(GL_RENDERER);
     const GLubyte* version = glGetString(GL_VERSION);
     qDebug() << "Renderer:" << renderer;
@@ -39,8 +41,7 @@ inline void Viewer::paintGL()
 
     
 
-    // m_elapsed.restart();
-    // update();
+
     //glClear(GL_COLOR_BUFFER_BIT);
     QOpenGLFunctions* f = QOpenGLContext::currentContext()->functions();
     
@@ -58,7 +59,9 @@ inline void Viewer::paintGL()
     // glVertex3f(0.0f, 0.5f, 0.0f);
     // glEnd();
     //m_scene->prepare(m_elapsed.elapsed()/100.0f);
-    usd_scene->draw(width(), height());
+    //usd_scene->draw(width(), height());
+    m_elapsed.restart();
+    update();
     //m_elapsed.restart();
     //update(); 
 }
@@ -69,13 +72,15 @@ void Viewer::resizeGL(int w, int h)
     // Set the viewport to cover the entire widget
     glViewport(0, 0, w, h);
 }
-// void View::mouseMoveEvent(QMouseEvent* event)
-// {
-//     m_scene->cursor(event->x()/(float)width(), event->y()/(float)height());
 
-// }
+void Viewer::mouseMoveEvent(QMouseEvent* event)
+{
+    auto pos = event->position();
+    qDebug() << "test" << pos;
 
-// void View::mousePressEvent(QMouseEvent* event)
-// {
-//     m_scene->click();
-// }
+}
+
+void View::mousePressEvent(QMouseEvent* event)
+{
+    m_scene->click();
+}
