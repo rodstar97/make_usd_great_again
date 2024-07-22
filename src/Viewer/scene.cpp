@@ -79,11 +79,11 @@ void Scene::draw(int width, int height)
 }
 
 
-// void Scene::set_camera()
-// {
-//     pxr::GfMatrix4d pre_pos = mCamera.GetTransform();
+void Scene::set_camera(QMatrix4x4 *cam_matrix)
+{
+    pxr::GfMatrix4d pre_pos = mCamera.GetTransform();
     
-
+}
 
 
 

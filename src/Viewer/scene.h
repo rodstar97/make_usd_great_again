@@ -7,6 +7,7 @@
 #include <pxr/usdImaging/usdImagingGL/engine.h>
 #include <pxr/base/gf/camera.h>
 #include <GL/gl.h>
+#include <QMatrix4x4>
 
 
 class Scene
@@ -18,7 +19,7 @@ public:
     void draw(int width, int height);
     // void click();
     // void cursor(float x, float y);
-    // void set_camera()
+    void set_camera(QMatrix4x4 *cam_matrix)
 
 private:
     pxr::UsdStageRefPtr mStage;

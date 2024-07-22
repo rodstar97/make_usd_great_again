@@ -1,0 +1,3 @@
+/workspaces/make_usd_great_again/src/Viewer/build/CMakeFiles/viewer.dir
+/workspaces/make_usd_great_again/src/Viewer/build/CMakeFiles/edit_cache.dir
+/workspaces/make_usd_great_again/src/Viewer/build/CMakeFiles/rebuild_cache.dir
