@@ -1644,16 +1644,17 @@ CMakeFiles/viewer.dir/viewer.cpp.o: \
  /usr/local/include/pxr/base/gf/rotation.h \
  /usr/local/include/pxr/base/gf/quaternion.h \
  /usr/local/include/pxr/base/gf/camera.h \
- /usr/local/include/QtGui/QVector2D /usr/local/include/QtGui/qvectornd.h \
- /usr/local/include/QtGui/QVector3D /usr/local/include/QtGui/QMatrix4x4 \
+ /usr/local/include/QtGui/QMatrix4x4 \
  /usr/local/include/QtGui/qmatrix4x4.h \
  /usr/local/include/QtGui/qvector3d.h \
  /usr/local/include/QtGui/qvectornd.h \
  /usr/local/include/QtGui/qvector4d.h \
  /usr/local/include/QtGui/qquaternion.h \
  /usr/local/include/QtGui/qgenericmatrix.h \
- /usr/local/include/QtCore/QDebug /usr/local/include/QtCore/qdebug.h \
- /usr/local/include/QtCore/QTimer /usr/local/include/QtCore/qtimer.h \
+ /usr/local/include/QtGui/QVector2D /usr/local/include/QtGui/qvectornd.h \
+ /usr/local/include/QtGui/QVector3D /usr/local/include/QtCore/QDebug \
+ /usr/local/include/QtCore/qdebug.h /usr/local/include/QtCore/QTimer \
+ /usr/local/include/QtCore/qtimer.h \
  /usr/local/include/QtCore/qbasictimer.h \
  /usr/local/include/QtGui/QMouseEvent /usr/local/include/QtGui/qevent.h \
  /usr/local/include/QtCore/qcoreevent.h \

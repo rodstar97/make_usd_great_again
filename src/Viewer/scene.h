@@ -15,12 +15,9 @@ class Scene
 public:
     Scene();
     ~Scene();
-    // void prepare(float seconds);
     void draw(int width, int height);
-    // void click();
-    // void cursor(float x, float y);
-    void set_camera(QMatrix4x4 *cam_matrix)
-
+    void set_camera(QMatrix4x4 cam_matrix);
+    void create_view_camera(pxr::UsdStageRefPtr stage);
 private:
     pxr::UsdStageRefPtr mStage;
     pxr::SdfPathVector mExcludePaths;

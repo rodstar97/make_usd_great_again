@@ -1508,9 +1508,9 @@ CMakeFiles/viewer.dir/scene.cpp.o: \
  /usr/local/include/pxr/base/gf/rotation.h \
  /usr/local/include/pxr/base/gf/quaternion.h \
  /usr/local/include/pxr/base/gf/camera.h /usr/local/include/GL/gl.h \
- /usr/local/include/GL/glext.h /usr/local/include/QtCore/QDebug \
- /usr/local/include/QtCore/qdebug.h \
- /usr/local/include/QtCore/qcontainerfwd.h \
+ /usr/local/include/GL/glext.h /usr/local/include/QtGui/QMatrix4x4 \
+ /usr/local/include/QtGui/qmatrix4x4.h \
+ /usr/local/include/QtGui/qtguiglobal.h \
  /usr/local/include/QtCore/qglobal.h \
  /opt/rh/gcc-toolset-11/root/usr/lib/gcc/x86_64-redhat-linux/11/include/stdbool.h \
  /usr/local/include/QtCore/qtversionchecks.h \
@@ -1527,6 +1527,7 @@ CMakeFiles/viewer.dir/scene.cpp.o: \
  /usr/local/include/QtCore/qtclasshelpermacros.h \
  /usr/local/include/QtCore/qtversion.h \
  /usr/local/include/QtCore/qtypeinfo.h \
+ /usr/local/include/QtCore/qcontainerfwd.h \
  /usr/local/include/QtCore/qsysinfo.h \
  /usr/local/include/QtCore/qlogging.h /usr/local/include/QtCore/qflags.h \
  /usr/local/include/QtCore/qcompare_impl.h \
@@ -1549,14 +1550,18 @@ CMakeFiles/viewer.dir/scene.cpp.o: \
  /usr/local/include/QtCore/qtresource.h \
  /usr/local/include/QtCore/qttranslation.h \
  /usr/local/include/QtCore/qversiontagging.h \
- /usr/local/include/QtCore/qtextstream.h \
- /usr/local/include/QtCore/qiodevicebase.h \
- /usr/local/include/QtCore/qchar.h \
+ /usr/local/include/QtGui/qtgui-config.h \
+ /usr/local/include/QtGui/qtguiexports.h \
+ /usr/local/include/QtGui/qvector3d.h \
+ /usr/local/include/QtGui/qvectornd.h /usr/local/include/QtCore/qpoint.h \
+ /usr/local/include/QtCore/qnamespace.h \
+ /usr/local/include/QtCore/qtmetamacros.h \
+ /usr/local/include/QtCore/qrect.h \
+ /usr/local/include/QtCore/qhashfunctions.h \
+ /usr/local/include/QtCore/qstring.h /usr/local/include/QtCore/qchar.h \
  /usr/local/include/QtCore/qstringview.h \
  /usr/local/include/QtCore/qbytearray.h \
  /usr/local/include/QtCore/qrefcount.h \
- /usr/local/include/QtCore/qnamespace.h \
- /usr/local/include/QtCore/qtmetamacros.h \
  /usr/local/include/QtCore/qarraydata.h /usr/local/include/QtCore/qpair.h \
  /usr/local/include/QtCore/qarraydatapointer.h \
  /usr/local/include/QtCore/qarraydataops.h \
@@ -1568,23 +1573,22 @@ CMakeFiles/viewer.dir/scene.cpp.o: \
  /usr/local/include/QtCore/q20type_traits.h \
  /usr/local/include/QtCore/qstringliteral.h \
  /usr/local/include/QtCore/qstringalgorithms.h \
- /usr/local/include/QtCore/qscopedpointer.h \
- /usr/local/include/QtCore/qstringconverter_base.h \
- /usr/local/include/QtCore/qstring.h \
  /usr/local/include/QtCore/qanystringview.h \
  /usr/local/include/QtCore/qutf8stringview.h \
  /usr/local/include/QtCore/qstringtokenizer.h \
  /usr/local/include/QtCore/qstringbuilder.h \
- /usr/local/include/QtCore/qcontiguouscache.h \
- /usr/local/include/QtCore/qsharedpointer.h \
- /usr/local/include/QtCore/qshareddata.h \
- /usr/local/include/QtCore/qhashfunctions.h \
- /usr/local/include/QtCore/qsharedpointer_impl.h \
+ /usr/local/include/QtCore/qmargins.h /usr/local/include/QtCore/qsize.h \
+ /usr/local/include/QtCore/qmath.h \
+ /usr/local/include/QtCore/qalgorithms.h \
+ /usr/local/include/QtGui/qvector4d.h \
+ /usr/local/include/QtGui/qquaternion.h \
+ /usr/local/include/QtGui/qgenericmatrix.h \
  /usr/local/include/QtCore/qmetatype.h \
  /usr/local/include/QtCore/qcompare.h \
  /usr/local/include/QtCore/qdatastream.h \
- /usr/local/include/QtCore/qfloat16.h /usr/local/include/QtCore/qmath.h \
- /usr/local/include/QtCore/qalgorithms.h \
+ /usr/local/include/QtCore/qscopedpointer.h \
+ /usr/local/include/QtCore/qiodevicebase.h \
+ /usr/local/include/QtCore/qfloat16.h \
  /usr/local/include/QtCore/qiterable.h \
  /usr/local/include/QtCore/qmetacontainer.h \
  /usr/local/include/QtCore/qcontainerinfo.h \
@@ -1592,6 +1596,13 @@ CMakeFiles/viewer.dir/scene.cpp.o: \
  /usr/local/include/QtCore/qobjectdefs.h \
  /usr/local/include/QtCore/qobjectdefs_impl.h \
  /usr/local/include/QtCore/qscopeguard.h \
+ /usr/local/include/QtCore/qdebug.h \
+ /usr/local/include/QtCore/qtextstream.h \
+ /usr/local/include/QtCore/qstringconverter_base.h \
+ /usr/local/include/QtCore/qcontiguouscache.h \
+ /usr/local/include/QtCore/qsharedpointer.h \
+ /usr/local/include/QtCore/qshareddata.h \
+ /usr/local/include/QtCore/qsharedpointer_impl.h \
  /usr/local/include/QtCore/qlist.h /usr/local/include/QtCore/qiterator.h \
  /usr/local/include/QtCore/qbytearraylist.h \
  /usr/local/include/QtCore/qstringlist.h \
@@ -1600,7 +1611,8 @@ CMakeFiles/viewer.dir/scene.cpp.o: \
  /usr/local/include/QtCore/qshareddata_impl.h \
  /usr/local/include/QtCore/qset.h /usr/local/include/QtCore/qhash.h \
  /usr/local/include/QtCore/qvarlengtharray.h \
- /usr/local/include/QtCore/q20memory.h \
+ /usr/local/include/QtCore/q20memory.h /usr/local/include/QtCore/QDebug \
+ /usr/local/include/QtCore/qdebug.h \
  /usr/local/include/pxr/usd/usd/primRange.h \
  /usr/local/include/pxr/usd/usd/references.h \
  /usr/local/include/pxr/usd/usdGeom/camera.h \

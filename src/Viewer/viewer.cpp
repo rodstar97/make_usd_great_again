@@ -111,6 +111,7 @@ void Viewer::mouseMoveEvent(QMouseEvent* event)
     }
 
     mousePressPosition = QVector2D(event->localPos());
+    usd_scene->set_camera(currentMatrix());
     update();
 }
 
@@ -132,8 +133,11 @@ void Viewer::mousePressEvent(QMouseEvent* event)
 void Viewer::mouseReleaseEvent(QMouseEvent* event)
 {
     mousePressPosition.reset();
+    
 
-    qDebug() << currentMatrix();
+    //glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
+    //usd_scene->draw(width(), height());
+    //update();
 }
 
 QMatrix4x4 Viewer::currentMatrix() const

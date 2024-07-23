@@ -2221,6 +2221,7 @@ CMakeFiles/viewer.dir/scene.cpp.o: /workspaces/make_usd_great_again/src/Viewer/s
   /usr/local/include/QtCore/qlogging.h \
   /usr/local/include/QtCore/qmalloc.h \
   /usr/local/include/QtCore/qmap.h \
+  /usr/local/include/QtCore/qmargins.h \
   /usr/local/include/QtCore/qmath.h \
   /usr/local/include/QtCore/qmetacontainer.h \
   /usr/local/include/QtCore/qmetatype.h \
@@ -2231,7 +2232,9 @@ CMakeFiles/viewer.dir/scene.cpp.o: /workspaces/make_usd_great_again/src/Viewer/s
   /usr/local/include/QtCore/qobjectdefs_impl.h \
   /usr/local/include/QtCore/qoverload.h \
   /usr/local/include/QtCore/qpair.h \
+  /usr/local/include/QtCore/qpoint.h \
   /usr/local/include/QtCore/qprocessordetection.h \
+  /usr/local/include/QtCore/qrect.h \
   /usr/local/include/QtCore/qrefcount.h \
   /usr/local/include/QtCore/qscopedpointer.h \
   /usr/local/include/QtCore/qscopeguard.h \
@@ -2240,6 +2243,7 @@ CMakeFiles/viewer.dir/scene.cpp.o: /workspaces/make_usd_great_again/src/Viewer/s
   /usr/local/include/QtCore/qshareddata_impl.h \
   /usr/local/include/QtCore/qsharedpointer.h \
   /usr/local/include/QtCore/qsharedpointer_impl.h \
+  /usr/local/include/QtCore/qsize.h \
   /usr/local/include/QtCore/qstring.h \
   /usr/local/include/QtCore/qstringalgorithms.h \
   /usr/local/include/QtCore/qstringbuilder.h \
@@ -2275,6 +2279,16 @@ CMakeFiles/viewer.dir/scene.cpp.o: /workspaces/make_usd_great_again/src/Viewer/s
   /usr/local/include/QtCore/qvarlengtharray.h \
   /usr/local/include/QtCore/qversiontagging.h \
   /usr/local/include/QtCore/qxptype_traits.h \
+  /usr/local/include/QtGui/QMatrix4x4 \
+  /usr/local/include/QtGui/qgenericmatrix.h \
+  /usr/local/include/QtGui/qmatrix4x4.h \
+  /usr/local/include/QtGui/qquaternion.h \
+  /usr/local/include/QtGui/qtgui-config.h \
+  /usr/local/include/QtGui/qtguiexports.h \
+  /usr/local/include/QtGui/qtguiglobal.h \
+  /usr/local/include/QtGui/qvector3d.h \
+  /usr/local/include/QtGui/qvector4d.h \
+  /usr/local/include/QtGui/qvectornd.h \
   /usr/local/include/boost/align/align.hpp \
   /usr/local/include/boost/align/detail/align.hpp \
   /usr/local/include/boost/align/detail/is_alignment.hpp \

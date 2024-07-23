@@ -1653,11 +1653,12 @@ CMakeFiles/viewer.dir/main.cpp.o: \
  /usr/local/include/pxr/base/gf/rotation.h \
  /usr/local/include/pxr/base/gf/quaternion.h \
  /usr/local/include/pxr/base/gf/camera.h \
- /usr/local/include/QtGui/QVector2D /usr/local/include/QtGui/qvectornd.h \
- /usr/local/include/QtGui/QVector3D /usr/local/include/QtGui/QMatrix4x4 \
+ /usr/local/include/QtGui/QMatrix4x4 \
  /usr/local/include/QtGui/qmatrix4x4.h \
  /usr/local/include/QtGui/qvector3d.h \
  /usr/local/include/QtGui/qvectornd.h \
  /usr/local/include/QtGui/qvector4d.h \
  /usr/local/include/QtGui/qquaternion.h \
- /usr/local/include/QtGui/qgenericmatrix.h
+ /usr/local/include/QtGui/qgenericmatrix.h \
+ /usr/local/include/QtGui/QVector2D /usr/local/include/QtGui/qvectornd.h \
+ /usr/local/include/QtGui/QVector3D

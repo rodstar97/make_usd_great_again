@@ -7,6 +7,7 @@
 #include <pxr/usd/usdGeom/camera.h>
 #include <pxr/usd/usdGeom/xformCommonAPI.h>
 #include "pxr/imaging/glf/simpleLightingContext.h"
+#include <pxr/usd/usdGeom/xformCommonAPI.h>
 
 
 #include <string>
@@ -19,7 +20,8 @@ Scene::Scene() :
     mStage = pxr::UsdStage::Open("/workspaces/make_usd_great_again/media/HelloWorld.usda");
     mRoot = mStage->GetPseudoRoot();
     auto cameraPrim = mStage->GetPrimAtPath(pxr::SdfPath("/off/Camera"));
-    mCamera = pxr::UsdGeomCamera(cameraPrim).GetCamera(pxr::UsdTimeCode::Default());
+    //mCamera = pxr::UsdGeomCamera(cameraPrim).GetCamera(pxr::UsdTimeCode::Default());
+    create_view_camera(mStage);
     GLint major = 0;
     GLint minor = 0;
     glGetIntegerv(GL_MAJOR_VERSION, &major);
@@ -79,12 +81,50 @@ void Scene::draw(int width, int height)
 }
 
 
-void Scene::set_camera(QMatrix4x4 *cam_matrix)
+void Scene::set_camera(QMatrix4x4 cam_matrix)
 {
-    pxr::GfMatrix4d pre_pos = mCamera.GetTransform();
+    //pxr::GfMatrix4d pre_pos = mCamera.GetTransform();
+    // auto frustum = mCamera.GetFrustum();
+    // auto view_matrix = frustum.ComputeViewMatrix();
+    auto new_matrix = pxr::GfMatrix4d(
+        static_cast<double>(cam_matrix(0, 0)), static_cast<double>(cam_matrix(0, 1)), static_cast<double>(cam_matrix(0, 2)), static_cast<double>(cam_matrix(0, 3)),
+        static_cast<double>(cam_matrix(1, 0)), static_cast<double>(cam_matrix(1, 1)), static_cast<double>(cam_matrix(1, 2)), static_cast<double>(cam_matrix(1, 3)),
+        static_cast<double>(cam_matrix(2, 0)), static_cast<double>(cam_matrix(2, 1)), static_cast<double>(cam_matrix(2, 2)), static_cast<double>(cam_matrix(2, 3)),
+        static_cast<double>(cam_matrix(3, 0)), static_cast<double>(cam_matrix(3, 1)), static_cast<double>(cam_matrix(3, 2)), static_cast<double>(cam_matrix(3, 3))
+    );
+    mCamera.SetTransform(new_matrix);//mCamera.GetTransform() *
+    // //auto new_matrix = pxr::GfMatrix4f(*cam_matrix.data());
+    // pxr::GfMatrix4d viewMat = new_matrix ;//view_matrix * 
+    // pxr::GfMatrix4d projMat = frustum.ComputeProjectionMatrix();
+    // mRenderer.SetCameraState(
+    //         viewMat,
+    //         projMat
+    //         );
+    auto SpherePrim = mStage->GetPrimAtPath(pxr::SdfPath("/hello/world"));
+    auto color_attr = SpherePrim.GetAttribute(pxr::TfToken{"primvars:displayColor"});
+    float r = static_cast <float> (rand()) / static_cast <float> (RAND_MAX);
+    srand (static_cast <unsigned> (time(0)));
+
+    float g = static_cast <float> (rand()) / static_cast <float> (RAND_MAX);
+    srand (static_cast <unsigned> (time(0)));
+
+    float b = static_cast <float> (rand()) / static_cast <float> (RAND_MAX);
+    // color.Set(1.0,1.0,1.0);
+    pxr::VtArray<pxr::GfVec3f> color {{r, g, b}};
+    color_attr.Set(color);
+
+    qDebug() << "Camera Update";
     
 }
 
+void Scene::create_view_camera(pxr::UsdStageRefPtr stage)
+{
+    pxr::UsdGeomCamera camera = pxr::UsdGeomCamera::Define(stage, pxr::SdfPath("/tmp/persp1"));
+    camera.CreateProjectionAttr();
+    //camera.AddTranslateOp
+    pxr::UsdGeomXformCommonAPI xformAPI(camera);
+    xformAPI.SetTranslate(pxr::GfVec3f(4.0f, 5.0f, 20.0f)); // Example translation
 
-
+    mCamera = camera.GetCamera(pxr::UsdTimeCode::Default()) ;
+}
 // }
