@@ -69,7 +69,23 @@
 			"__verbose_abort": "cpp",
 			"ios": "cpp",
 			"locale": "cpp",
-			"qopenglfunctions": "cpp"
+			"qopenglfunctions": "cpp",
+			"any": "cpp",
+			"chrono": "cpp",
+			"clocale": "cpp",
+			"complex": "cpp",
+			"condition_variable": "cpp",
+			"ctime": "cpp",
+			"cwctype": "cpp",
+			"deque": "cpp",
+			"fstream": "cpp",
+			"iomanip": "cpp",
+			"mutex": "cpp",
+			"numeric": "cpp",
+			"optional": "cpp",
+			"ratio": "cpp",
+			"system_error": "cpp",
+			"source_location": "cpp"
 		}
 	}
 }

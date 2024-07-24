@@ -1,4 +1,3 @@
-#include "scene.h"
 #include <cstdio>
 #include <QDebug>
 
@@ -9,19 +8,21 @@
 #include "pxr/imaging/glf/simpleLightingContext.h"
 #include <pxr/usd/usdGeom/xformCommonAPI.h>
 
-
 #include <string>
+#include "scene.h"
+#include "camera.h"
 
 Scene::Scene() :
     mWidth(0),
     mHeight(0)
-{
-
+{std::call_once
+    
     mStage = pxr::UsdStage::Open("/workspaces/make_usd_great_again/media/HelloWorld.usda");
     mRoot = mStage->GetPseudoRoot();
-    auto cameraPrim = mStage->GetPrimAtPath(pxr::SdfPath("/off/Camera"));
+    //auto cameraPrim = mStage->GetPrimAtPath(pxr::SdfPath("/off/Camera"));
     //mCamera = pxr::UsdGeomCamera(cameraPrim).GetCamera(pxr::UsdTimeCode::Default());
-    create_view_camera(mStage);
+    //create_view_camera(mStage);
+    string camera_path = Camera::CreateDefaultCamera(mStage, defaultCameraPath)
     GLint major = 0;
     GLint minor = 0;
     glGetIntegerv(GL_MAJOR_VERSION, &major);
@@ -128,3 +129,13 @@ void Scene::create_view_camera(pxr::UsdStageRefPtr stage)
     mCamera = camera.GetCamera(pxr::UsdTimeCode::Default()) ;
 }
 // }
+
+void Scene::ZoomCamera(float delta) {
+    float zoomSpeed = 0.1f;
+    pxr::GfVec3f zoomTranslation(0.0f, 0.0f, delta * zoomSpeed);
+
+    // Apply the zoom to the camera transform
+    pxr::GfMatrix4d cameraTransform = mCamera.GetTransform();
+    cameraTransform.SetTranslate(cameraTransform.ExtractTranslation() + zoomTranslation);
+    cameraTransform.GetXformOp().Set(cameraTransform);
+}

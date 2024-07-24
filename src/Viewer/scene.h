@@ -18,6 +18,8 @@ public:
     void draw(int width, int height);
     void set_camera(QMatrix4x4 cam_matrix);
     void create_view_camera(pxr::UsdStageRefPtr stage);
+
+    void ZoomCamera(float delta);
 private:
     pxr::UsdStageRefPtr mStage;
     pxr::SdfPathVector mExcludePaths;

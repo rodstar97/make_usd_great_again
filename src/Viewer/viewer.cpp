@@ -85,42 +85,55 @@ void Viewer::mouseMoveEvent(QMouseEvent* event)
 
     auto const pos = QVector2D(event->localPos());
     auto const diff = pos - *mousePressPosition;
-    auto const focusVector = lookat_camera.cameraLocation - lookat_camera.focusPoint;
-    auto const up = lookat_camera.up.normalized();
-    auto const right = QVector3D::crossProduct(lookat_camera.up, focusVector).normalized();
+    // auto const focusVector = lookat_camera.cameraLocation - lookat_camera.focusPoint;
+    // auto const up = lookat_camera.up.normalized();
+    // auto const right = QVector3D::crossProduct(lookat_camera.up, focusVector).normalized();
 
     if (event->buttons() & Qt::LeftButton) {
+        qDebug() << diff.x() << diff.y() << "rotate";
         // rotate
-        QMatrix4x4 mat;
-        mat.rotate(-diff.x(), up);
-        mat.rotate(-diff.y(), right);
-        auto const newFocusVector = mat.map(focusVector);
-        auto const newCameraPos = newFocusVector + lookat_camera.focusPoint;
-        lookat_camera.cameraLocation = newCameraPos;
-        lookat_camera.up = mat.mapVector(up);
-        // Ensure the "up" vector is actually orthogonal to the focus vector. This is approximately
-        // the case anyways, but might drift over time due to float precision.
-        lookat_camera.up -= QVector3D::dotProduct(lookat_camera.up, newFocusVector) * lookat_camera.up;
-        lookat_camera.up.normalize();
+        // QMatrix4x4 mat;
+        // mat.rotate(-diff.x(), up);
+        // mat.rotate(-diff.y(), right);
+        // auto const newFocusVector = mat.map(focusVector);
+        // auto const newCameraPos = newFocusVector + lookat_camera.focusPoint;
+        // lookat_camera.cameraLocation = newCameraPos;
+        // lookat_camera.up = mat.mapVector(up);
+        // // Ensure the "up" vector is actually orthogonal to the focus vector. This is approximately
+        // // the case anyways, but might drift over time due to float precision.
+        // lookat_camera.up -= QVector3D::dotProduct(lookat_camera.up, newFocusVector) * lookat_camera.up;
+        // lookat_camera.up.normalize();
     }
     if (event->buttons() & Qt::RightButton) {
+        qDebug() << diff.x() << diff.y() << "zoom";
+        auto const zoomDelta = -diff.x() / width() + diff.y() / height();
+        usd_scene->ZoomCamera(zoomDelta);
         // pan
-        auto const panDelta = -diff.x() / width() * right + diff.y() / height() * up;
-        lookat_camera.cameraLocation += panDelta;
-        lookat_camera.focusPoint += panDelta;
+        // auto const panDelta = -diff.x() / width() * right + diff.y() / height() * up;
+        // lookat_camera.cameraLocation += panDelta;
+        // lookat_camera.focusPoint += panDelta;
+    }
+
+    if (event->buttons() & Qt::MiddleButton) {
+        qDebug() << diff.x() << diff.y() << "pan";
+
+        // pan
+        // 
+        // lookat_camera.cameraLocation += panDelta;
+        // lookat_camera.focusPoint += panDelta;
     }
 
     mousePressPosition = QVector2D(event->localPos());
-    usd_scene->set_camera(currentMatrix());
+    //usd_scene->set_camera(currentMatrix());
     update();
 }
 
 void Viewer::wheelEvent(QWheelEvent* event)
 {
-    auto const delta = event->angleDelta().y();
-    auto const focusVector = lookat_camera.cameraLocation - lookat_camera.focusPoint;
-    auto const mul = -delta / 1000.;
-    lookat_camera.cameraLocation += mul*focusVector;
+    // auto const delta = event->angleDelta().y();
+    // auto const focusVector = lookat_camera.cameraLocation - lookat_camera.focusPoint;
+    // auto const mul = -delta / 1000.;
+    // lookat_camera.cameraLocation += mul*focusVector;
     update();
 }
 
