@@ -8,6 +8,7 @@
 #include <pxr/base/gf/camera.h>
 #include <GL/gl.h>
 #include <QMatrix4x4>
+#include "sceneCamera.h"
 
 
 class Scene
@@ -15,11 +16,14 @@ class Scene
 public:
     Scene();
     ~Scene();
+    SceneCamera GetSceneCamera();
+    pxr::UsdStageRefPtr GetStage();
     void draw(int width, int height);
-    void set_camera(QMatrix4x4 cam_matrix);
-    void create_view_camera(pxr::UsdStageRefPtr stage);
+    
+    //void set_camera(QMatrix4x4 cam_matrix);
+    // void create_view_camera(pxr::UsdStageRefPtr stage);
 
-    void ZoomCamera(float delta);
+
 private:
     pxr::UsdStageRefPtr mStage;
     pxr::SdfPathVector mExcludePaths;
@@ -27,7 +31,7 @@ private:
     pxr::UsdImagingGLRenderParams mParams;
 
    
-    pxr::GfCamera mCamera;
+    SceneCamera mCamera;
     pxr::SdfPath mCurrent;
     pxr::UsdPrim mRoot;
     int mWidth;

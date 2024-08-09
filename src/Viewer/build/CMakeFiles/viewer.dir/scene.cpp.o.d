@@ -1,8 +1,326 @@
 CMakeFiles/viewer.dir/scene.cpp.o: \
  /workspaces/make_usd_great_again/src/Viewer/scene.cpp \
  /usr/include/stdc-predef.h \
- /workspaces/make_usd_great_again/src/Viewer/scene.h \
- /usr/local/include/pxr/usd/usd/stage.h /usr/local/include/pxr/pxr.h \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/cstdio \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/x86_64-redhat-linux/bits/c++config.h \
+ /usr/include/bits/wordsize.h \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/x86_64-redhat-linux/bits/os_defines.h \
+ /usr/include/features.h /usr/include/sys/cdefs.h \
+ /usr/include/bits/long-double.h /usr/include/gnu/stubs.h \
+ /usr/include/gnu/stubs-64.h \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/x86_64-redhat-linux/bits/cpu_defines.h \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/pstl/pstl_config.h \
+ /usr/include/stdio.h /usr/include/bits/libc-header-start.h \
+ /opt/rh/gcc-toolset-11/root/usr/lib/gcc/x86_64-redhat-linux/11/include/stddef.h \
+ /opt/rh/gcc-toolset-11/root/usr/lib/gcc/x86_64-redhat-linux/11/include/stdarg.h \
+ /usr/include/bits/types.h /usr/include/bits/typesizes.h \
+ /usr/include/bits/types/__fpos_t.h /usr/include/bits/types/__mbstate_t.h \
+ /usr/include/bits/types/__fpos64_t.h /usr/include/bits/types/__FILE.h \
+ /usr/include/bits/types/FILE.h /usr/include/bits/types/struct_FILE.h \
+ /usr/include/bits/types/cookie_io_functions_t.h \
+ /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+ /usr/local/include/QtCore/QDebug /usr/local/include/QtCore/qdebug.h \
+ /usr/local/include/QtCore/qcontainerfwd.h \
+ /usr/local/include/QtCore/qglobal.h \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/type_traits \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/cstddef \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/utility \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/stl_relops.h \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/stl_pair.h \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/move.h \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/initializer_list \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/cstdint \
+ /opt/rh/gcc-toolset-11/root/usr/lib/gcc/x86_64-redhat-linux/11/include/stdint.h \
+ /usr/include/stdint.h /usr/include/bits/wchar.h \
+ /usr/include/bits/stdint-intn.h /usr/include/bits/stdint-uintn.h \
+ /usr/include/assert.h \
+ /opt/rh/gcc-toolset-11/root/usr/lib/gcc/x86_64-redhat-linux/11/include/stdbool.h \
+ /usr/local/include/QtCore/qtversionchecks.h \
+ /usr/local/include/QtCore/qconfig.h \
+ /usr/local/include/QtCore/qtcore-config.h \
+ /usr/local/include/QtCore/qtconfigmacros.h \
+ /usr/local/include/QtCore/qtcoreexports.h \
+ /usr/local/include/QtCore/qtpreprocessorsupport.h \
+ /usr/local/include/QtCore/qtnoop.h \
+ /usr/local/include/QtCore/qsystemdetection.h \
+ /usr/local/include/QtCore/qprocessordetection.h \
+ /usr/local/include/QtCore/qcompilerdetection.h \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/version \
+ /usr/local/include/QtCore/qassert.h /usr/local/include/QtCore/qtypes.h \
+ /usr/local/include/QtCore/qtclasshelpermacros.h \
+ /usr/local/include/QtCore/qtversion.h \
+ /usr/local/include/QtCore/qtypeinfo.h \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/variant \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/enable_special_members.h \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/functexcept.h \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/exception_defines.h \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/functional_hash.h \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/hash_bytes.h \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/invoke.h \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/ext/aligned_buffer.h \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/parse_numbers.h \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/ext/numeric_traits.h \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/cpp_type_traits.h \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/ext/type_traits.h \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/stl_iterator_base_types.h \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/stl_iterator_base_funcs.h \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/concept_check.h \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/debug/assertions.h \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/stl_construct.h \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/new \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/exception.h \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/optional \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/exception \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/exception_ptr.h \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/cxxabi_init_exception.h \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/typeinfo \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/nested_exception.h \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/tuple \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/array \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/stl_algobase.h \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/stl_iterator.h \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/ptr_traits.h \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/debug/debug.h \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/predefined_ops.h \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/range_access.h \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/uses_allocator.h \
+ /usr/local/include/QtCore/qsysinfo.h \
+ /usr/local/include/QtCore/qlogging.h /usr/local/include/QtCore/qflags.h \
+ /usr/local/include/QtCore/qcompare_impl.h \
+ /usr/local/include/QtCore/qatomic.h \
+ /usr/local/include/QtCore/qbasicatomic.h \
+ /usr/local/include/QtCore/qatomic_cxx11.h \
+ /usr/local/include/QtCore/qgenericatomic.h \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/atomic \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/atomic_base.h \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/atomic_lockfree_defines.h \
+ /usr/local/include/QtCore/qconstructormacros.h \
+ /usr/local/include/QtCore/qdarwinhelpers.h \
+ /usr/local/include/QtCore/qexceptionhandling.h \
+ /usr/local/include/QtCore/qforeach.h \
+ /usr/local/include/QtCore/qtdeprecationmarkers.h \
+ /usr/local/include/QtCore/qttypetraits.h \
+ /usr/local/include/QtCore/qfunctionpointer.h \
+ /usr/local/include/QtCore/qglobalstatic.h \
+ /usr/local/include/QtCore/qmalloc.h /usr/local/include/QtCore/qminmax.h \
+ /usr/local/include/QtCore/qnumeric.h \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/cmath /usr/include/math.h \
+ /usr/include/bits/math-vector.h /usr/include/bits/libm-simd-decl-stubs.h \
+ /usr/include/bits/floatn.h /usr/include/bits/floatn-common.h \
+ /usr/include/bits/flt-eval-method.h /usr/include/bits/fp-logb.h \
+ /usr/include/bits/fp-fast.h \
+ /usr/include/bits/mathcalls-helper-functions.h \
+ /usr/include/bits/mathcalls.h /usr/include/bits/mathcalls-narrow.h \
+ /usr/include/bits/iscanonical.h \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/std_abs.h \
+ /usr/include/stdlib.h /usr/include/bits/waitflags.h \
+ /usr/include/bits/waitstatus.h /usr/include/bits/types/locale_t.h \
+ /usr/include/bits/types/__locale_t.h /usr/include/sys/types.h \
+ /usr/include/bits/types/clock_t.h /usr/include/bits/types/clockid_t.h \
+ /usr/include/bits/types/time_t.h /usr/include/bits/types/timer_t.h \
+ /usr/include/endian.h /usr/include/bits/endian.h \
+ /usr/include/bits/byteswap.h /usr/include/bits/uintn-identity.h \
+ /usr/include/sys/select.h /usr/include/bits/select.h \
+ /usr/include/bits/types/sigset_t.h /usr/include/bits/types/__sigset_t.h \
+ /usr/include/bits/types/struct_timeval.h \
+ /usr/include/bits/types/struct_timespec.h \
+ /usr/include/bits/pthreadtypes.h /usr/include/bits/thread-shared-types.h \
+ /usr/include/bits/pthreadtypes-arch.h /usr/include/alloca.h \
+ /usr/include/bits/stdlib-float.h \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/specfun.h \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/limits \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/tr1/gamma.tcc \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/tr1/special_function_util.h \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/tr1/bessel_function.tcc \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/tr1/beta_function.tcc \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/tr1/ell_integral.tcc \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/tr1/exp_integral.tcc \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/tr1/hypergeometric.tcc \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/tr1/legendre_function.tcc \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/tr1/modified_bessel_func.tcc \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/tr1/poly_hermite.tcc \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/tr1/poly_laguerre.tcc \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/tr1/riemann_zeta.tcc \
+ /usr/local/include/QtCore/qoverload.h /usr/local/include/QtCore/qswap.h \
+ /usr/local/include/QtCore/qtenvironmentvariables.h \
+ /usr/local/include/QtCore/qtresource.h \
+ /usr/local/include/QtCore/qttranslation.h \
+ /usr/local/include/QtCore/qversiontagging.h \
+ /usr/local/include/QtCore/qtextstream.h \
+ /usr/local/include/QtCore/qiodevicebase.h \
+ /usr/local/include/QtCore/qchar.h \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/functional \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/stl_function.h \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/backward/binders.h \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/refwrap.h \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/std_function.h \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/unordered_map \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/allocator.h \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/x86_64-redhat-linux/bits/c++allocator.h \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/ext/new_allocator.h \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/memoryfwd.h \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/ext/alloc_traits.h \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/alloc_traits.h \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/hashtable.h \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/hashtable_policy.h \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/node_handle.h \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/unordered_map.h \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/erase_if.h \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/vector \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/stl_uninitialized.h \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/stl_vector.h \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/stl_bvector.h \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/vector.tcc \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/stl_algo.h \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/cstdlib \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/algorithmfwd.h \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/stl_heap.h \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/stl_tempbuf.h \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/uniform_int_dist.h \
+ /usr/local/include/QtCore/qstringview.h \
+ /usr/local/include/QtCore/qbytearray.h \
+ /usr/local/include/QtCore/qrefcount.h \
+ /usr/local/include/QtCore/qnamespace.h \
+ /usr/local/include/QtCore/qtmetamacros.h \
+ /usr/local/include/QtCore/qarraydata.h /usr/local/include/QtCore/qpair.h \
+ /usr/include/string.h /usr/include/strings.h \
+ /usr/local/include/QtCore/qarraydatapointer.h \
+ /usr/local/include/QtCore/qarraydataops.h \
+ /usr/local/include/QtCore/qcontainertools_impl.h \
+ /usr/local/include/QtCore/qxptype_traits.h \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/cstring \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/iterator \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/iosfwd \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/stringfwd.h \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/postypes.h \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/cwchar \
+ /usr/include/wchar.h /usr/include/bits/types/wint_t.h \
+ /usr/include/bits/types/mbstate_t.h \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/stream_iterator.h \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/streambuf_iterator.h \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/streambuf \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/localefwd.h \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/x86_64-redhat-linux/bits/c++locale.h \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/clocale \
+ /usr/include/locale.h /usr/include/bits/locale.h \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/cctype \
+ /usr/include/ctype.h \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/ios_base.h \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/ext/atomicity.h \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/x86_64-redhat-linux/bits/gthr.h \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/x86_64-redhat-linux/bits/gthr-default.h \
+ /usr/include/pthread.h /usr/include/sched.h /usr/include/bits/sched.h \
+ /usr/include/bits/types/struct_sched_param.h /usr/include/bits/cpu-set.h \
+ /usr/include/time.h /usr/include/bits/time.h /usr/include/bits/timex.h \
+ /usr/include/bits/types/struct_tm.h \
+ /usr/include/bits/types/struct_itimerspec.h /usr/include/bits/setjmp.h \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/x86_64-redhat-linux/bits/atomic_word.h \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/locale_classes.h \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/string \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/char_traits.h \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/ostream_insert.h \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/cxxabi_forced.h \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/basic_string.h \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/string_view \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/string_view.tcc \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/ext/string_conversions.h \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/cerrno \
+ /usr/include/errno.h /usr/include/bits/errno.h \
+ /usr/include/linux/errno.h /usr/include/asm/errno.h \
+ /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
+ /usr/include/bits/types/error_t.h \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/charconv.h \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/basic_string.tcc \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/locale_classes.tcc \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/system_error \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/x86_64-redhat-linux/bits/error_constants.h \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/stdexcept \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/streambuf.tcc \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/memory \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/stl_raw_storage_iter.h \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/align.h \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bit \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/unique_ptr.h \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/shared_ptr.h \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/shared_ptr_base.h \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/allocated_ptr.h \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/ext/concurrence.h \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/shared_ptr_atomic.h \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/backward/auto_ptr.h \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/pstl/glue_memory_defs.h \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/pstl/execution_defs.h \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/algorithm \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/pstl/glue_algorithm_defs.h \
+ /usr/local/include/QtCore/qbytearrayalgorithms.h \
+ /usr/local/include/QtCore/qbytearrayview.h \
+ /usr/local/include/QtCore/qstringfwd.h \
+ /usr/local/include/QtCore/q20type_traits.h \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/stdlib.h \
+ /usr/local/include/QtCore/qstringliteral.h \
+ /usr/local/include/QtCore/qstringalgorithms.h \
+ /usr/local/include/QtCore/qscopedpointer.h \
+ /usr/local/include/QtCore/qstringconverter_base.h \
+ /usr/local/include/QtCore/qstring.h \
+ /usr/local/include/QtCore/qanystringview.h \
+ /usr/local/include/QtCore/qutf8stringview.h \
+ /usr/local/include/QtCore/qstringtokenizer.h \
+ /usr/local/include/QtCore/qstringbuilder.h \
+ /usr/local/include/QtCore/qcontiguouscache.h \
+ /opt/rh/gcc-toolset-11/root/usr/lib/gcc/x86_64-redhat-linux/11/include/limits.h \
+ /opt/rh/gcc-toolset-11/root/usr/lib/gcc/x86_64-redhat-linux/11/include/syslimits.h \
+ /usr/include/limits.h /usr/include/bits/posix1_lim.h \
+ /usr/include/bits/local_lim.h /usr/include/linux/limits.h \
+ /usr/include/bits/posix2_lim.h /usr/include/bits/xopen_lim.h \
+ /usr/include/bits/uio_lim.h /usr/local/include/QtCore/qsharedpointer.h \
+ /usr/local/include/QtCore/qshareddata.h \
+ /usr/local/include/QtCore/qhashfunctions.h \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/numeric \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/stl_numeric.h \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/pstl/glue_numeric_defs.h \
+ /usr/local/include/QtCore/qsharedpointer_impl.h \
+ /usr/local/include/QtCore/qmetatype.h \
+ /usr/local/include/QtCore/qcompare.h \
+ /usr/local/include/QtCore/qdatastream.h \
+ /usr/local/include/QtCore/qfloat16.h /usr/local/include/QtCore/qmath.h \
+ /usr/local/include/QtCore/qalgorithms.h \
+ /usr/local/include/QtCore/qiterable.h \
+ /usr/local/include/QtCore/qmetacontainer.h \
+ /usr/local/include/QtCore/qcontainerinfo.h \
+ /usr/local/include/QtCore/qtaggedpointer.h \
+ /usr/local/include/QtCore/qobjectdefs.h \
+ /usr/local/include/QtCore/qobjectdefs_impl.h \
+ /usr/local/include/QtCore/qscopeguard.h \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/list \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/stl_list.h \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/list.tcc \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/map \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/stl_tree.h \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/stl_map.h \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/stl_multimap.h \
+ /usr/local/include/QtCore/qlist.h /usr/local/include/QtCore/qiterator.h \
+ /usr/local/include/QtCore/qbytearraylist.h \
+ /usr/local/include/QtCore/qstringlist.h \
+ /usr/local/include/QtCore/qstringmatcher.h \
+ /usr/local/include/QtCore/qmap.h \
+ /usr/local/include/QtCore/qshareddata_impl.h \
+ /usr/local/include/QtCore/qset.h /usr/local/include/QtCore/qhash.h \
+ /usr/local/include/QtCore/qvarlengtharray.h \
+ /usr/local/include/QtCore/q20memory.h \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/iostream \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/ostream \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/ios \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/basic_ios.h \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/locale_facets.h \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/cwctype \
+ /usr/include/wctype.h /usr/include/bits/wctype-wchar.h \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/x86_64-redhat-linux/bits/ctype_base.h \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/x86_64-redhat-linux/bits/ctype_inline.h \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/locale_facets.tcc \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/basic_ios.tcc \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/ostream.tcc \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/istream \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/istream.tcc \
+ /usr/local/include/pxr/usd/usd/primRange.h /usr/local/include/pxr/pxr.h \
  /usr/local/include/pxr/usd/usd/api.h \
  /usr/local/include/pxr/base/arch/export.h \
  /usr/local/include/pxr/base/arch/defines.h \
@@ -18,195 +336,21 @@ CMakeFiles/viewer.dir/scene.cpp.o: \
  /usr/local/include/pxr/base/arch/hints.h \
  /usr/local/include/pxr/base/tf/callContext.h \
  /usr/local/include/pxr/base/arch/functionLite.h \
- /opt/rh/gcc-toolset-11/root/usr/lib/gcc/x86_64-redhat-linux/11/include/stddef.h \
  /usr/local/include/pxr/base/tf/hash.h \
  /usr/local/include/pxr/base/tf/tf.h \
  /usr/local/include/pxr/base/arch/math.h \
  /usr/local/include/pxr/base/arch/inttypes.h \
  /opt/rh/gcc-toolset-11/root/usr/include/c++/11/cinttypes \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/cstdint \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/x86_64-redhat-linux/bits/c++config.h \
- /usr/include/bits/wordsize.h \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/x86_64-redhat-linux/bits/os_defines.h \
- /usr/include/features.h /usr/include/sys/cdefs.h \
- /usr/include/bits/long-double.h /usr/include/gnu/stubs.h \
- /usr/include/gnu/stubs-64.h \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/x86_64-redhat-linux/bits/cpu_defines.h \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/pstl/pstl_config.h \
- /opt/rh/gcc-toolset-11/root/usr/lib/gcc/x86_64-redhat-linux/11/include/stdint.h \
- /usr/include/stdint.h /usr/include/bits/libc-header-start.h \
- /usr/include/bits/types.h /usr/include/bits/typesizes.h \
- /usr/include/bits/wchar.h /usr/include/bits/stdint-intn.h \
- /usr/include/bits/stdint-uintn.h /usr/include/inttypes.h \
- /usr/include/sys/types.h /usr/include/bits/types/clock_t.h \
- /usr/include/bits/types/clockid_t.h /usr/include/bits/types/time_t.h \
- /usr/include/bits/types/timer_t.h /usr/include/endian.h \
- /usr/include/bits/endian.h /usr/include/bits/byteswap.h \
- /usr/include/bits/uintn-identity.h /usr/include/sys/select.h \
- /usr/include/bits/select.h /usr/include/bits/types/sigset_t.h \
- /usr/include/bits/types/__sigset_t.h \
- /usr/include/bits/types/struct_timeval.h \
- /usr/include/bits/types/struct_timespec.h \
- /usr/include/bits/pthreadtypes.h /usr/include/bits/thread-shared-types.h \
- /usr/include/bits/pthreadtypes-arch.h \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/cmath \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/cpp_type_traits.h \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/ext/type_traits.h \
- /usr/include/math.h /usr/include/bits/math-vector.h \
- /usr/include/bits/libm-simd-decl-stubs.h /usr/include/bits/floatn.h \
- /usr/include/bits/floatn-common.h /usr/include/bits/flt-eval-method.h \
- /usr/include/bits/fp-logb.h /usr/include/bits/fp-fast.h \
- /usr/include/bits/mathcalls-helper-functions.h \
- /usr/include/bits/mathcalls.h /usr/include/bits/mathcalls-narrow.h \
- /usr/include/bits/iscanonical.h \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/std_abs.h \
- /usr/include/stdlib.h /usr/include/bits/waitflags.h \
- /usr/include/bits/waitstatus.h /usr/include/bits/types/locale_t.h \
- /usr/include/bits/types/__locale_t.h /usr/include/alloca.h \
- /usr/include/bits/stdlib-float.h \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/specfun.h \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/stl_algobase.h \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/functexcept.h \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/exception_defines.h \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/ext/numeric_traits.h \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/stl_pair.h \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/move.h \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/type_traits \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/stl_iterator_base_types.h \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/stl_iterator_base_funcs.h \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/concept_check.h \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/debug/assertions.h \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/stl_iterator.h \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/ptr_traits.h \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/debug/debug.h \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/predefined_ops.h \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/limits \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/tr1/gamma.tcc \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/tr1/special_function_util.h \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/tr1/bessel_function.tcc \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/tr1/beta_function.tcc \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/tr1/ell_integral.tcc \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/tr1/exp_integral.tcc \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/tr1/hypergeometric.tcc \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/tr1/legendre_function.tcc \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/tr1/modified_bessel_func.tcc \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/tr1/poly_hermite.tcc \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/tr1/poly_laguerre.tcc \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/tr1/riemann_zeta.tcc \
+ /usr/include/inttypes.h \
  /opt/rh/gcc-toolset-11/root/usr/include/c++/11/math.h \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/utility \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/stl_relops.h \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/initializer_list \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/cstring \
- /usr/include/string.h /usr/include/strings.h \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/string \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/stringfwd.h \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/memoryfwd.h \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/char_traits.h \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/postypes.h \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/cwchar \
- /usr/include/wchar.h \
- /opt/rh/gcc-toolset-11/root/usr/lib/gcc/x86_64-redhat-linux/11/include/stdarg.h \
- /usr/include/bits/types/wint_t.h /usr/include/bits/types/mbstate_t.h \
- /usr/include/bits/types/__mbstate_t.h /usr/include/bits/types/__FILE.h \
- /usr/include/bits/types/FILE.h \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/allocator.h \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/x86_64-redhat-linux/bits/c++allocator.h \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/ext/new_allocator.h \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/new \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/exception.h \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/localefwd.h \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/x86_64-redhat-linux/bits/c++locale.h \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/clocale \
- /usr/include/locale.h /usr/include/bits/locale.h \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/iosfwd \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/cctype \
- /usr/include/ctype.h \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/ostream_insert.h \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/cxxabi_forced.h \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/stl_function.h \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/backward/binders.h \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/range_access.h \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/basic_string.h \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/ext/atomicity.h \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/x86_64-redhat-linux/bits/gthr.h \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/x86_64-redhat-linux/bits/gthr-default.h \
- /usr/include/pthread.h /usr/include/sched.h /usr/include/bits/sched.h \
- /usr/include/bits/types/struct_sched_param.h /usr/include/bits/cpu-set.h \
- /usr/include/time.h /usr/include/bits/time.h /usr/include/bits/timex.h \
- /usr/include/bits/types/struct_tm.h \
- /usr/include/bits/types/struct_itimerspec.h /usr/include/bits/setjmp.h \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/x86_64-redhat-linux/bits/atomic_word.h \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/ext/alloc_traits.h \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/alloc_traits.h \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/stl_construct.h \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/string_view \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/functional_hash.h \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/hash_bytes.h \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/string_view.tcc \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/ext/string_conversions.h \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/cstdlib \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/cstdio \
- /usr/include/stdio.h /usr/include/bits/types/__fpos_t.h \
- /usr/include/bits/types/__fpos64_t.h \
- /usr/include/bits/types/struct_FILE.h \
- /usr/include/bits/types/cookie_io_functions_t.h \
- /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/cerrno \
- /usr/include/errno.h /usr/include/bits/errno.h \
- /usr/include/linux/errno.h /usr/include/asm/errno.h \
- /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
- /usr/include/bits/types/error_t.h \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/charconv.h \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/basic_string.tcc \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/map \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/stl_tree.h \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/ext/aligned_buffer.h \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/node_handle.h \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/stl_map.h \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/tuple \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/array \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/uses_allocator.h \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/invoke.h \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/stl_multimap.h \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/erase_if.h \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/memory \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/stl_uninitialized.h \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/stl_tempbuf.h \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/stl_raw_storage_iter.h \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/align.h \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bit \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/unique_ptr.h \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/shared_ptr.h \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/shared_ptr_base.h \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/typeinfo \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/allocated_ptr.h \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/refwrap.h \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/ext/concurrence.h \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/exception \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/exception_ptr.h \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/cxxabi_init_exception.h \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/nested_exception.h \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/shared_ptr_atomic.h \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/atomic_base.h \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/atomic_lockfree_defines.h \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/backward/auto_ptr.h \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/pstl/glue_memory_defs.h \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/pstl/execution_defs.h \
  /opt/rh/gcc-toolset-11/root/usr/include/c++/11/set \
  /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/stl_set.h \
  /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/stl_multiset.h \
  /opt/rh/gcc-toolset-11/root/usr/include/c++/11/typeindex \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/vector \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/stl_vector.h \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/stl_bvector.h \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/vector.tcc \
  /usr/local/include/pxr/base/tf/refBase.h \
  /usr/local/include/pxr/base/tf/refCount.h \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/atomic \
  /usr/local/include/pxr/base/tf/safeTypeCompare.h \
  /usr/local/include/pxr/base/tf/typeFunctions.h \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/cstddef \
  /usr/local/include/pxr/base/tf/weakBase.h \
  /usr/local/include/pxr/base/tf/expiryNotifier.h \
  /usr/local/include/pxr/base/tf/weakPtrFacade.h \
@@ -215,21 +359,6 @@ CMakeFiles/viewer.dir/scene.cpp.o: \
  /usr/local/include/pxr/base/arch/api.h \
  /usr/local/include/pxr/base/tf/diagnosticHelper.h \
  /opt/rh/gcc-toolset-11/root/usr/include/c++/11/locale \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/locale_classes.h \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/locale_classes.tcc \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/locale_facets.h \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/cwctype \
- /usr/include/wctype.h /usr/include/bits/wctype-wchar.h \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/x86_64-redhat-linux/bits/ctype_base.h \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/ios_base.h \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/system_error \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/x86_64-redhat-linux/bits/error_constants.h \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/stdexcept \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/streambuf \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/streambuf.tcc \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/streambuf_iterator.h \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/x86_64-redhat-linux/bits/ctype_inline.h \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/locale_facets.tcc \
  /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/locale_facets_nonio.h \
  /opt/rh/gcc-toolset-11/root/usr/include/c++/11/ctime \
  /opt/rh/gcc-toolset-11/root/usr/include/c++/11/x86_64-redhat-linux/bits/time_members.h \
@@ -243,7 +372,6 @@ CMakeFiles/viewer.dir/scene.cpp.o: \
  /usr/local/include/boost/config/detail/select_compiler_config.hpp \
  /usr/local/include/boost/config/compiler/gcc.hpp \
  /usr/local/include/boost/config/detail/select_stdlib_config.hpp \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/version \
  /usr/local/include/boost/config/stdlib/libstdcpp3.hpp \
  /usr/include/unistd.h /usr/include/bits/posix_opt.h \
  /usr/include/bits/environments.h /usr/include/bits/confname.h \
@@ -300,17 +428,7 @@ CMakeFiles/viewer.dir/scene.cpp.o: \
  /usr/local/include/pxr/base/tf/enum.h \
  /usr/local/include/pxr/base/tf/preprocessorUtilsLite.h \
  /opt/rh/gcc-toolset-11/root/usr/include/c++/11/cstdarg \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/list \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/stl_list.h \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/list.tcc \
  /opt/rh/gcc-toolset-11/root/usr/include/c++/11/sstream \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/istream \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/ios \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/basic_ios.h \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/basic_ios.tcc \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/ostream \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/ostream.tcc \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/istream.tcc \
  /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/sstream.tcc \
  /usr/local/include/pxr/usd/sdf/layerOffset.h \
  /usr/local/include/pxr/usd/sdf/api.h \
@@ -319,27 +437,14 @@ CMakeFiles/viewer.dir/scene.cpp.o: \
  /usr/local/include/boost/smart_ptr/intrusive_ptr.hpp \
  /usr/local/include/boost/smart_ptr/detail/requires_cxx11.hpp \
  /usr/local/include/boost/config/pragma_message.hpp \
- /usr/local/include/boost/assert.hpp /usr/include/assert.h \
+ /usr/local/include/boost/assert.hpp \
  /usr/local/include/boost/smart_ptr/detail/sp_convertible.hpp \
  /usr/local/include/boost/smart_ptr/detail/sp_nullptr_t.hpp \
  /usr/local/include/boost/smart_ptr/detail/sp_noexcept.hpp \
  /usr/local/include/boost/config/no_tr1/functional.hpp \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/functional \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/std_function.h \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/unordered_map \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/hashtable.h \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/hashtable_policy.h \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/enable_special_members.h \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/unordered_map.h \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/stl_algo.h \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/algorithmfwd.h \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/stl_heap.h \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/uniform_int_dist.h \
  /usr/local/include/boost/smart_ptr/detail/operator_bool.hpp \
  /usr/local/include/pxr/usd/usd/timeCode.h \
  /usr/local/include/pxr/usd/sdf/timeCode.h \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/algorithm \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/pstl/glue_algorithm_defs.h \
  /usr/local/include/pxr/base/tf/staticTokens.h \
  /usr/local/include/pxr/base/tf/staticData.h \
  /usr/local/include/pxr/base/tf/token.h \
@@ -347,8 +452,6 @@ CMakeFiles/viewer.dir/scene.cpp.o: \
  /opt/rh/gcc-toolset-11/root/usr/include/c++/11/ext/hash_set \
  /opt/rh/gcc-toolset-11/root/usr/include/c++/11/backward/backward_warning.h \
  /opt/rh/gcc-toolset-11/root/usr/include/c++/11/backward/hashtable.h \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/iterator \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/stream_iterator.h \
  /opt/rh/gcc-toolset-11/root/usr/include/c++/11/backward/hash_fun.h \
  /usr/local/include/pxr/base/tf/pointerAndBits.h \
  /usr/local/include/pxr/base/arch/pragmas.h \
@@ -399,37 +502,93 @@ CMakeFiles/viewer.dir/scene.cpp.o: \
  /usr/local/include/boost/preprocessor/seq/for_each_i.hpp \
  /usr/local/include/boost/preprocessor/arithmetic/inc.hpp \
  /usr/local/include/boost/preprocessor/arithmetic/limits/inc_256.hpp \
- /usr/local/include/pxr/usd/usd/editTarget.h \
- /usr/local/include/pxr/usd/pcp/layerStackIdentifier.h \
- /usr/local/include/pxr/usd/pcp/api.h \
- /usr/local/include/pxr/usd/pcp/expressionVariablesSource.h \
- /usr/local/include/pxr/usd/sdf/declareHandles.h \
- /usr/local/include/pxr/usd/ar/resolverContext.h \
- /usr/local/include/pxr/usd/ar/api.h /usr/local/include/pxr/usd/ar/ar.h \
- /usr/local/include/pxr/base/tf/pyLock.h \
- /usr/local/include/pxr/base/tf/pySafePython.h \
- /usr/local/include/boost/python/detail/wrap_python.hpp \
- /usr/local/include/python3.11/pyconfig.h \
- /opt/rh/gcc-toolset-11/root/usr/lib/gcc/x86_64-redhat-linux/11/include/limits.h \
- /opt/rh/gcc-toolset-11/root/usr/lib/gcc/x86_64-redhat-linux/11/include/syslimits.h \
- /usr/include/limits.h /usr/include/bits/posix1_lim.h \
- /usr/include/bits/local_lim.h /usr/include/linux/limits.h \
- /usr/include/bits/posix2_lim.h /usr/include/bits/xopen_lim.h \
- /usr/include/bits/uio_lim.h /usr/local/include/python3.11/patchlevel.h \
- /usr/local/include/python3.11/Python.h \
- /usr/local/include/python3.11/patchlevel.h \
- /usr/local/include/python3.11/pyconfig.h \
- /usr/local/include/python3.11/pymacconfig.h \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/stdlib.h \
- /usr/local/include/python3.11/pyport.h /usr/include/sys/time.h \
- /usr/include/sys/stat.h /usr/include/bits/stat.h \
- /usr/include/bits/statx.h /usr/include/linux/stat.h \
+ /usr/local/include/pxr/usd/usd/prim.h \
+ /usr/local/include/pxr/usd/usd/object.h \
+ /usr/local/include/pxr/usd/usd/primData.h \
+ /usr/local/include/pxr/usd/usd/primFlags.h \
+ /usr/local/include/pxr/base/tf/bitUtils.h \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bitset \
+ /usr/local/include/pxr/usd/usd/primDefinition.h \
+ /usr/local/include/pxr/usd/usd/schemaRegistry.h \
+ /usr/local/include/pxr/usd/sdf/layer.h \
+ /usr/local/include/pxr/usd/sdf/data.h \
+ /usr/local/include/pxr/usd/sdf/abstractData.h \
+ /usr/local/include/pxr/usd/sdf/path.h \
+ /usr/local/include/pxr/usd/sdf/pool.h \
+ /usr/local/include/tbb/concurrent_queue.h \
+ /usr/local/include/tbb/internal/_warning_suppress_enable_notice.h \
+ /usr/local/include/tbb/tbb_config.h \
+ /usr/local/include/tbb/internal/_concurrent_queue_impl.h \
+ /usr/local/include/tbb/tbb_stddef.h /usr/local/include/tbb/tbb_config.h \
+ /usr/local/include/tbb/tbb_machine.h /usr/local/include/tbb/tbb_stddef.h \
+ /usr/local/include/tbb/machine/gcc_generic.h \
+ /usr/local/include/tbb/machine/gcc_ia32_common.h \
+ /usr/local/include/tbb/machine/gcc_itsx.h \
+ /usr/local/include/tbb/machine/linux_common.h /usr/include/sys/syscall.h \
+ /usr/include/asm/unistd.h /usr/include/asm/unistd_64.h \
+ /usr/include/bits/syscall.h /usr/include/linux/futex.h \
  /usr/include/linux/types.h /usr/include/asm/types.h \
  /usr/include/asm-generic/types.h /usr/include/asm-generic/int-ll64.h \
  /usr/include/asm/bitsperlong.h /usr/include/asm-generic/bitsperlong.h \
  /usr/include/linux/posix_types.h /usr/include/linux/stddef.h \
  /usr/include/asm/posix_types.h /usr/include/asm/posix_types_64.h \
- /usr/include/asm-generic/posix_types.h /usr/include/bits/statx-generic.h \
+ /usr/include/asm-generic/posix_types.h /usr/local/include/tbb/atomic.h \
+ /usr/local/include/tbb/internal/_deprecated_header_message_guard.h \
+ /usr/local/include/tbb/tbb_config.h /usr/local/include/tbb/tbb_machine.h \
+ /usr/local/include/tbb/internal/_warning_suppress_disable_notice.h \
+ /usr/local/include/tbb/spin_mutex.h \
+ /usr/local/include/tbb/aligned_space.h \
+ /usr/local/include/tbb/tbb_profiling.h \
+ /usr/local/include/tbb/internal/_tbb_strings.h \
+ /usr/local/include/tbb/atomic.h \
+ /usr/local/include/tbb/internal/_mutex_padding.h \
+ /usr/local/include/tbb/internal/_x86_eliding_mutex_impl.h \
+ /usr/local/include/tbb/cache_aligned_allocator.h \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/memory_resource \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/shared_mutex \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/chrono \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/ratio \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/std_mutex.h \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/uses_allocator_args.h \
+ /usr/local/include/tbb/tbb_exception.h \
+ /usr/local/include/tbb/tbb_allocator.h \
+ /usr/local/include/tbb/tbb_profiling.h \
+ /usr/local/include/tbb/internal/_allocator_traits.h \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/thread \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/std_thread.h \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/this_thread_sleep.h \
+ /usr/local/include/pxr/usd/sdf/tokens.h \
+ /usr/local/include/pxr/base/tf/stl.h \
+ /usr/local/include/pxr/base/tf/hashmap.h \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/ext/hash_map \
+ /usr/local/include/pxr/base/tf/iterator.h \
+ /usr/local/include/pxr/base/vt/traits.h \
+ /usr/local/include/pxr/base/vt/api.h \
+ /usr/local/include/pxr/usd/sdf/pathNode.h \
+ /usr/local/include/pxr/base/tf/functionRef.h \
+ /usr/local/include/pxr/base/tf/mallocTag.h \
+ /usr/local/include/pxr/usd/sdf/types.h \
+ /usr/local/include/pxr/usd/sdf/assetPath.h \
+ /usr/local/include/pxr/usd/sdf/declareHandles.h \
+ /usr/local/include/pxr/usd/sdf/listOp.h \
+ /usr/local/include/boost/optional/optional_fwd.hpp \
+ /usr/local/include/pxr/usd/sdf/opaqueValue.h \
+ /usr/local/include/pxr/usd/sdf/pathExpression.h \
+ /usr/local/include/pxr/usd/sdf/predicateExpression.h \
+ /usr/local/include/pxr/base/vt/value.h \
+ /usr/local/include/pxr/base/tf/pyObjWrapper.h \
+ /usr/local/include/pxr/base/tf/pySafePython.h \
+ /usr/local/include/boost/python/detail/wrap_python.hpp \
+ /usr/local/include/python3.11/pyconfig.h \
+ /usr/local/include/python3.11/patchlevel.h \
+ /usr/local/include/python3.11/Python.h \
+ /usr/local/include/python3.11/patchlevel.h \
+ /usr/local/include/python3.11/pyconfig.h \
+ /usr/local/include/python3.11/pymacconfig.h \
+ /usr/local/include/python3.11/pyport.h /usr/include/sys/time.h \
+ /usr/include/sys/stat.h /usr/include/bits/stat.h \
+ /usr/include/bits/statx.h /usr/include/linux/stat.h \
+ /usr/include/bits/statx-generic.h \
  /usr/include/bits/types/struct_statx_timestamp.h \
  /usr/include/bits/types/struct_statx.h \
  /usr/local/include/python3.11/exports.h \
@@ -534,7 +693,6 @@ CMakeFiles/viewer.dir/scene.cpp.o: \
  /usr/local/include/python3.11/cpython/fileutils.h \
  /usr/local/include/python3.11/cpython/pyfpe.h \
  /usr/local/include/python3.11/tracemalloc.h \
- /usr/local/include/pxr/base/tf/pyObjWrapper.h \
  /usr/local/include/boost/functional/hash.hpp \
  /usr/local/include/boost/container_hash/hash.hpp \
  /usr/local/include/boost/container_hash/detail/requires_cxx11.hpp \
@@ -594,9 +752,6 @@ CMakeFiles/viewer.dir/scene.cpp.o: \
  /usr/local/include/boost/type_traits/add_volatile.hpp \
  /usr/local/include/boost/type_traits/conjunction.hpp \
  /opt/rh/gcc-toolset-11/root/usr/include/c++/11/complex \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/optional \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/variant \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/parse_numbers.h \
  /usr/local/include/boost/python/object_fwd.hpp \
  /usr/local/include/boost/python/detail/prefix.hpp \
  /usr/local/include/boost/python/detail/config.hpp \
@@ -1029,59 +1184,7 @@ CMakeFiles/viewer.dir/scene.cpp.o: \
  /usr/local/include/boost/iterator/detail/enable_if.hpp \
  /usr/local/include/boost/iterator/detail/config_def.hpp \
  /usr/local/include/boost/iterator/detail/config_undef.hpp \
- /usr/local/include/pxr/usd/pcp/mapFunction.h \
- /usr/local/include/pxr/usd/sdf/path.h \
- /usr/local/include/pxr/usd/sdf/pool.h \
- /usr/local/include/tbb/concurrent_queue.h \
- /usr/local/include/tbb/internal/_warning_suppress_enable_notice.h \
- /usr/local/include/tbb/tbb_config.h \
- /usr/local/include/tbb/internal/_concurrent_queue_impl.h \
- /usr/local/include/tbb/tbb_stddef.h /usr/local/include/tbb/tbb_config.h \
- /usr/local/include/tbb/tbb_machine.h /usr/local/include/tbb/tbb_stddef.h \
- /usr/local/include/tbb/machine/gcc_generic.h \
- /usr/local/include/tbb/machine/gcc_ia32_common.h \
- /usr/local/include/tbb/machine/gcc_itsx.h \
- /usr/local/include/tbb/machine/linux_common.h /usr/include/sys/syscall.h \
- /usr/include/asm/unistd.h /usr/include/asm/unistd_64.h \
- /usr/include/bits/syscall.h /usr/include/linux/futex.h \
- /usr/local/include/tbb/atomic.h \
- /usr/local/include/tbb/internal/_deprecated_header_message_guard.h \
- /usr/local/include/tbb/tbb_config.h /usr/local/include/tbb/tbb_machine.h \
- /usr/local/include/tbb/internal/_warning_suppress_disable_notice.h \
- /usr/local/include/tbb/spin_mutex.h \
- /usr/local/include/tbb/aligned_space.h \
- /usr/local/include/tbb/tbb_profiling.h \
- /usr/local/include/tbb/internal/_tbb_strings.h \
- /usr/local/include/tbb/atomic.h \
- /usr/local/include/tbb/internal/_mutex_padding.h \
- /usr/local/include/tbb/internal/_x86_eliding_mutex_impl.h \
- /usr/local/include/tbb/cache_aligned_allocator.h \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/memory_resource \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/shared_mutex \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/chrono \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/ratio \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/std_mutex.h \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/uses_allocator_args.h \
- /usr/local/include/tbb/tbb_exception.h \
- /usr/local/include/tbb/tbb_allocator.h \
- /usr/local/include/tbb/tbb_profiling.h \
- /usr/local/include/tbb/internal/_allocator_traits.h \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/thread \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/std_thread.h \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/this_thread_sleep.h \
- /usr/local/include/pxr/usd/sdf/tokens.h \
- /usr/local/include/pxr/base/tf/stl.h \
- /usr/local/include/pxr/base/tf/hashmap.h \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/ext/hash_map \
- /usr/local/include/pxr/base/tf/iterator.h \
- /usr/local/include/pxr/base/vt/traits.h \
- /usr/local/include/pxr/base/vt/api.h \
- /usr/local/include/pxr/usd/sdf/pathNode.h \
- /usr/local/include/pxr/base/tf/functionRef.h \
- /usr/local/include/pxr/base/tf/mallocTag.h \
- /usr/local/include/pxr/usd/sdf/pathExpression.h \
- /usr/local/include/pxr/usd/sdf/predicateExpression.h \
- /usr/local/include/pxr/base/vt/value.h \
+ /usr/local/include/pxr/base/tf/pyLock.h \
  /usr/local/include/pxr/base/tf/anyUniquePtr.h \
  /usr/local/include/pxr/base/tf/type.h \
  /usr/local/include/pxr/base/tf/registryManager.h \
@@ -1095,14 +1198,6 @@ CMakeFiles/viewer.dir/scene.cpp.o: \
  /usr/local/include/pxr/base/gf/api.h \
  /usr/local/include/pxr/base/gf/ilmbase_halfLimits.h \
  /usr/local/include/pxr/base/gf/traits.h \
- /usr/local/include/pxr/usd/pcp/node.h \
- /usr/local/include/pxr/usd/pcp/types.h \
- /usr/local/include/pxr/usd/pcp/site.h \
- /usr/local/include/pxr/usd/sdf/types.h \
- /usr/local/include/pxr/usd/sdf/assetPath.h \
- /usr/local/include/pxr/usd/sdf/listOp.h \
- /usr/local/include/boost/optional/optional_fwd.hpp \
- /usr/local/include/pxr/usd/sdf/opaqueValue.h \
  /usr/local/include/pxr/usd/sdf/valueTypeName.h \
  /usr/local/include/pxr/base/gf/matrix2d.h \
  /usr/local/include/pxr/base/gf/matrixData.h \
@@ -1128,9 +1223,6 @@ CMakeFiles/viewer.dir/scene.cpp.o: \
  /usr/local/include/pxr/base/gf/quath.h \
  /usr/local/include/pxr/base/vt/array.h \
  /usr/local/include/pxr/base/vt/dictionary.h \
- /usr/local/include/pxr/usd/sdf/layer.h \
- /usr/local/include/pxr/usd/sdf/data.h \
- /usr/local/include/pxr/usd/sdf/abstractData.h \
  /usr/local/include/pxr/usd/sdf/identity.h \
  /usr/local/include/pxr/usd/sdf/layerHints.h \
  /usr/local/include/pxr/usd/sdf/namespaceEdit.h \
@@ -1302,9 +1394,6 @@ CMakeFiles/viewer.dir/scene.cpp.o: \
  /opt/rh/gcc-toolset-11/root/usr/lib/gcc/x86_64-redhat-linux/11/include/fma4intrin.h \
  /opt/rh/gcc-toolset-11/root/usr/lib/gcc/x86_64-redhat-linux/11/include/ammintrin.h \
  /opt/rh/gcc-toolset-11/root/usr/lib/gcc/x86_64-redhat-linux/11/include/xopintrin.h \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/numeric \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/stl_numeric.h \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/pstl/glue_numeric_defs.h \
  /usr/local/include/pxr/base/tf/error.h \
  /usr/local/include/pxr/base/tf/diagnosticBase.h \
  /usr/local/include/pxr/base/tf/status.h \
@@ -1324,28 +1413,36 @@ CMakeFiles/viewer.dir/scene.cpp.o: \
  /usr/local/include/pxr/base/tf/errorTransport.h \
  /usr/local/include/pxr/usd/sdf/mapEditProxy.h \
  /usr/local/include/pxr/usd/sdf/mapEditor.h \
+ /usr/local/include/pxr/usd/ar/ar.h \
  /usr/local/include/pxr/usd/ar/assetInfo.h \
+ /usr/local/include/pxr/usd/ar/api.h \
  /usr/local/include/pxr/usd/ar/resolvedPath.h \
  /usr/local/include/pxr/base/work/dispatcher.h \
  /usr/local/include/pxr/base/work/threadLimits.h \
  /usr/local/include/pxr/base/work/api.h \
  /usr/local/include/tbb/concurrent_vector.h /usr/local/include/tbb/task.h \
- /usr/local/include/pxr/base/tf/pxrTslRobinMap/robin_set.h \
- /usr/local/include/pxr/base/tf/pxrTslRobinMap/robin_hash.h \
- /usr/local/include/pxr/base/tf/pxrTslRobinMap/robin_growth_policy.h \
  /usr/local/include/pxr/usd/sdf/primSpec.h \
  /usr/local/include/pxr/usd/sdf/payload.h \
- /usr/local/include/pxr/usd/usd/interpolation.h \
- /usr/local/include/pxr/usd/usd/schemaRegistry.h \
- /usr/local/include/pxr/usd/usd/stageLoadRules.h \
- /usr/local/include/pxr/usd/usd/stagePopulationMask.h \
- /usr/local/include/pxr/usd/usd/primDefinition.h \
  /usr/local/include/pxr/usd/sdf/attributeSpec.h \
  /usr/local/include/pxr/usd/sdf/propertySpec.h \
  /usr/local/include/pxr/usd/sdf/relationshipSpec.h \
- /usr/local/include/pxr/usd/usd/primFlags.h \
- /usr/local/include/pxr/base/tf/bitUtils.h \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bitset \
+ /usr/local/include/pxr/usd/usd/primTypeInfo.h \
+ /usr/local/include/pxr/usd/usd/stage.h \
+ /usr/local/include/pxr/usd/usd/editTarget.h \
+ /usr/local/include/pxr/usd/pcp/layerStackIdentifier.h \
+ /usr/local/include/pxr/usd/pcp/api.h \
+ /usr/local/include/pxr/usd/pcp/expressionVariablesSource.h \
+ /usr/local/include/pxr/usd/ar/resolverContext.h \
+ /usr/local/include/pxr/usd/pcp/mapFunction.h \
+ /usr/local/include/pxr/usd/pcp/node.h \
+ /usr/local/include/pxr/usd/pcp/types.h \
+ /usr/local/include/pxr/usd/pcp/site.h \
+ /usr/local/include/pxr/base/tf/pxrTslRobinMap/robin_set.h \
+ /usr/local/include/pxr/base/tf/pxrTslRobinMap/robin_hash.h \
+ /usr/local/include/pxr/base/tf/pxrTslRobinMap/robin_growth_policy.h \
+ /usr/local/include/pxr/usd/usd/interpolation.h \
+ /usr/local/include/pxr/usd/usd/stageLoadRules.h \
+ /usr/local/include/pxr/usd/usd/stagePopulationMask.h \
  /usr/local/include/pxr/usd/ar/notice.h \
  /usr/local/include/pxr/usd/sdf/notice.h \
  /usr/local/include/pxr/usd/sdf/changeList.h \
@@ -1373,10 +1470,6 @@ CMakeFiles/viewer.dir/scene.cpp.o: \
  /usr/local/include/tbb/internal/_node_handle_impl.h \
  /usr/local/include/tbb/concurrent_hash_map.h \
  /usr/local/include/tbb/spin_rw_mutex.h \
- /usr/local/include/pxr/usd/usd/prim.h \
- /usr/local/include/pxr/usd/usd/object.h \
- /usr/local/include/pxr/usd/usd/primData.h \
- /usr/local/include/pxr/usd/usd/primTypeInfo.h \
  /usr/local/include/pxr/base/trace/trace.h \
  /usr/local/include/pxr/base/trace/api.h \
  /usr/local/include/pxr/base/trace/collector.h \
@@ -1399,16 +1492,47 @@ CMakeFiles/viewer.dir/scene.cpp.o: \
  /usr/local/include/pxr/base/trace/threads.h \
  /usr/local/include/pxr/base/tf/pyTracing.h \
  /usr/local/include/tbb/spin_mutex.h \
+ /usr/local/include/pxr/usd/usd/references.h \
+ /usr/local/include/pxr/usd/usdGeom/camera.h \
+ /usr/local/include/pxr/usd/usdGeom/api.h \
+ /usr/local/include/pxr/usd/usdGeom/xformable.h \
+ /usr/local/include/pxr/usd/usdGeom/imageable.h \
+ /usr/local/include/pxr/usd/usd/typed.h \
+ /usr/local/include/pxr/usd/usd/schemaBase.h \
+ /usr/local/include/pxr/usd/usd/attribute.h \
+ /usr/local/include/pxr/usd/usd/property.h \
+ /usr/local/include/pxr/usd/usd/resolveInfo.h \
+ /usr/local/include/pxr/base/gf/interval.h \
+ /opt/rh/gcc-toolset-11/root/usr/lib/gcc/x86_64-redhat-linux/11/include/float.h \
+ /usr/local/include/pxr/usd/usd/relationship.h \
+ /usr/local/include/pxr/usd/usdGeom/tokens.h \
+ /usr/local/include/pxr/base/gf/bbox3d.h \
+ /usr/local/include/pxr/base/gf/range3d.h \
+ /opt/rh/gcc-toolset-11/root/usr/include/c++/11/cfloat \
+ /usr/local/include/pxr/base/gf/range3f.h \
+ /usr/local/include/pxr/usd/usdGeom/primvar.h \
+ /usr/local/include/pxr/usd/usdGeom/xformOp.h \
+ /usr/local/include/pxr/usd/usd/attributeQuery.h \
+ /usr/local/include/pxr/usd/usd/resolveTarget.h \
+ /usr/local/include/pxr/base/gf/camera.h \
+ /usr/local/include/pxr/base/gf/range1f.h \
+ /usr/local/include/pxr/base/gf/range1d.h \
+ /usr/local/include/pxr/usd/usdGeom/xformCommonAPI.h \
+ /usr/local/include/pxr/usd/usd/apiSchemaBase.h \
+ /usr/local/include/pxr/imaging/glf/simpleLightingContext.h \
+ /usr/local/include/pxr/imaging/glf/api.h \
+ /usr/local/include/pxr/imaging/glf/simpleLight.h \
+ /usr/local/include/pxr/imaging/glf/simpleMaterial.h \
+ /usr/local/include/pxr/imaging/glf/simpleShadowArray.h \
+ /usr/local/include/pxr/imaging/garch/glApi.h \
+ /usr/local/include/pxr/imaging/garch/api.h \
+ /usr/local/include/pxr/imaging/garch/khrplatform.h \
+ /workspaces/make_usd_great_again/src/Viewer/scene.h \
  /usr/local/include/pxr/usdImaging/usdImagingGL/engine.h \
  /usr/local/include/pxr/usdImaging/usdImagingGL/api.h \
  /usr/local/include/pxr/usdImaging/usdImagingGL/version.h \
  /usr/local/include/pxr/usdImaging/usdImaging/version.h \
  /usr/local/include/pxr/usdImaging/usdImagingGL/renderParams.h \
- /usr/local/include/pxr/base/gf/bbox3d.h \
- /usr/local/include/pxr/base/gf/range3d.h \
- /opt/rh/gcc-toolset-11/root/usr/include/c++/11/cfloat \
- /opt/rh/gcc-toolset-11/root/usr/lib/gcc/x86_64-redhat-linux/11/include/float.h \
- /usr/local/include/pxr/base/gf/range3f.h \
  /usr/local/include/pxr/usdImaging/usdImagingGL/rendererSettings.h \
  /usr/local/include/pxr/imaging/cameraUtil/conformWindow.h \
  /usr/local/include/pxr/imaging/cameraUtil/api.h \
@@ -1497,142 +1621,21 @@ CMakeFiles/viewer.dir/scene.cpp.o: \
  /usr/local/include/pxr/imaging/hgi/graphicsCmds.h \
  /usr/local/include/pxr/imaging/hgi/graphicsCmdsDesc.h \
  /usr/local/include/pxr/imaging/hgi/graphicsPipeline.h \
- /usr/local/include/pxr/imaging/glf/simpleLight.h \
- /usr/local/include/pxr/imaging/glf/api.h \
- /usr/local/include/pxr/imaging/glf/simpleMaterial.h \
  /usr/local/include/pxr/base/gf/frustum.h \
  /usr/local/include/pxr/base/gf/plane.h \
  /usr/local/include/pxr/base/gf/ray.h \
- /usr/local/include/pxr/base/gf/range1d.h \
- /usr/local/include/pxr/base/gf/range1f.h \
  /usr/local/include/pxr/base/gf/rotation.h \
- /usr/local/include/pxr/base/gf/quaternion.h \
- /usr/local/include/pxr/base/gf/camera.h /usr/local/include/GL/gl.h \
- /usr/local/include/GL/glext.h /usr/local/include/QtGui/QMatrix4x4 \
+ /usr/local/include/pxr/base/gf/quaternion.h /usr/local/include/GL/gl.h \
+ /usr/local/include/QtGui/QMatrix4x4 \
  /usr/local/include/QtGui/qmatrix4x4.h \
  /usr/local/include/QtGui/qtguiglobal.h \
- /usr/local/include/QtCore/qglobal.h \
- /opt/rh/gcc-toolset-11/root/usr/lib/gcc/x86_64-redhat-linux/11/include/stdbool.h \
- /usr/local/include/QtCore/qtversionchecks.h \
- /usr/local/include/QtCore/qconfig.h \
- /usr/local/include/QtCore/qtcore-config.h \
- /usr/local/include/QtCore/qtconfigmacros.h \
- /usr/local/include/QtCore/qtcoreexports.h \
- /usr/local/include/QtCore/qtpreprocessorsupport.h \
- /usr/local/include/QtCore/qtnoop.h \
- /usr/local/include/QtCore/qsystemdetection.h \
- /usr/local/include/QtCore/qprocessordetection.h \
- /usr/local/include/QtCore/qcompilerdetection.h \
- /usr/local/include/QtCore/qassert.h /usr/local/include/QtCore/qtypes.h \
- /usr/local/include/QtCore/qtclasshelpermacros.h \
- /usr/local/include/QtCore/qtversion.h \
- /usr/local/include/QtCore/qtypeinfo.h \
- /usr/local/include/QtCore/qcontainerfwd.h \
- /usr/local/include/QtCore/qsysinfo.h \
- /usr/local/include/QtCore/qlogging.h /usr/local/include/QtCore/qflags.h \
- /usr/local/include/QtCore/qcompare_impl.h \
- /usr/local/include/QtCore/qatomic.h \
- /usr/local/include/QtCore/qbasicatomic.h \
- /usr/local/include/QtCore/qatomic_cxx11.h \
- /usr/local/include/QtCore/qgenericatomic.h \
- /usr/local/include/QtCore/qconstructormacros.h \
- /usr/local/include/QtCore/qdarwinhelpers.h \
- /usr/local/include/QtCore/qexceptionhandling.h \
- /usr/local/include/QtCore/qforeach.h \
- /usr/local/include/QtCore/qtdeprecationmarkers.h \
- /usr/local/include/QtCore/qttypetraits.h \
- /usr/local/include/QtCore/qfunctionpointer.h \
- /usr/local/include/QtCore/qglobalstatic.h \
- /usr/local/include/QtCore/qmalloc.h /usr/local/include/QtCore/qminmax.h \
- /usr/local/include/QtCore/qnumeric.h \
- /usr/local/include/QtCore/qoverload.h /usr/local/include/QtCore/qswap.h \
- /usr/local/include/QtCore/qtenvironmentvariables.h \
- /usr/local/include/QtCore/qtresource.h \
- /usr/local/include/QtCore/qttranslation.h \
- /usr/local/include/QtCore/qversiontagging.h \
  /usr/local/include/QtGui/qtgui-config.h \
  /usr/local/include/QtGui/qtguiexports.h \
  /usr/local/include/QtGui/qvector3d.h \
  /usr/local/include/QtGui/qvectornd.h /usr/local/include/QtCore/qpoint.h \
- /usr/local/include/QtCore/qnamespace.h \
- /usr/local/include/QtCore/qtmetamacros.h \
- /usr/local/include/QtCore/qrect.h \
- /usr/local/include/QtCore/qhashfunctions.h \
- /usr/local/include/QtCore/qstring.h /usr/local/include/QtCore/qchar.h \
- /usr/local/include/QtCore/qstringview.h \
- /usr/local/include/QtCore/qbytearray.h \
- /usr/local/include/QtCore/qrefcount.h \
- /usr/local/include/QtCore/qarraydata.h /usr/local/include/QtCore/qpair.h \
- /usr/local/include/QtCore/qarraydatapointer.h \
- /usr/local/include/QtCore/qarraydataops.h \
- /usr/local/include/QtCore/qcontainertools_impl.h \
- /usr/local/include/QtCore/qxptype_traits.h \
- /usr/local/include/QtCore/qbytearrayalgorithms.h \
- /usr/local/include/QtCore/qbytearrayview.h \
- /usr/local/include/QtCore/qstringfwd.h \
- /usr/local/include/QtCore/q20type_traits.h \
- /usr/local/include/QtCore/qstringliteral.h \
- /usr/local/include/QtCore/qstringalgorithms.h \
- /usr/local/include/QtCore/qanystringview.h \
- /usr/local/include/QtCore/qutf8stringview.h \
- /usr/local/include/QtCore/qstringtokenizer.h \
- /usr/local/include/QtCore/qstringbuilder.h \
- /usr/local/include/QtCore/qmargins.h /usr/local/include/QtCore/qsize.h \
- /usr/local/include/QtCore/qmath.h \
- /usr/local/include/QtCore/qalgorithms.h \
- /usr/local/include/QtGui/qvector4d.h \
+ /usr/local/include/QtCore/qrect.h /usr/local/include/QtCore/qmargins.h \
+ /usr/local/include/QtCore/qsize.h /usr/local/include/QtGui/qvector4d.h \
  /usr/local/include/QtGui/qquaternion.h \
  /usr/local/include/QtGui/qgenericmatrix.h \
- /usr/local/include/QtCore/qmetatype.h \
- /usr/local/include/QtCore/qcompare.h \
- /usr/local/include/QtCore/qdatastream.h \
- /usr/local/include/QtCore/qscopedpointer.h \
- /usr/local/include/QtCore/qiodevicebase.h \
- /usr/local/include/QtCore/qfloat16.h \
- /usr/local/include/QtCore/qiterable.h \
- /usr/local/include/QtCore/qmetacontainer.h \
- /usr/local/include/QtCore/qcontainerinfo.h \
- /usr/local/include/QtCore/qtaggedpointer.h \
- /usr/local/include/QtCore/qobjectdefs.h \
- /usr/local/include/QtCore/qobjectdefs_impl.h \
- /usr/local/include/QtCore/qscopeguard.h \
  /usr/local/include/QtCore/qdebug.h \
- /usr/local/include/QtCore/qtextstream.h \
- /usr/local/include/QtCore/qstringconverter_base.h \
- /usr/local/include/QtCore/qcontiguouscache.h \
- /usr/local/include/QtCore/qsharedpointer.h \
- /usr/local/include/QtCore/qshareddata.h \
- /usr/local/include/QtCore/qsharedpointer_impl.h \
- /usr/local/include/QtCore/qlist.h /usr/local/include/QtCore/qiterator.h \
- /usr/local/include/QtCore/qbytearraylist.h \
- /usr/local/include/QtCore/qstringlist.h \
- /usr/local/include/QtCore/qstringmatcher.h \
- /usr/local/include/QtCore/qmap.h \
- /usr/local/include/QtCore/qshareddata_impl.h \
- /usr/local/include/QtCore/qset.h /usr/local/include/QtCore/qhash.h \
- /usr/local/include/QtCore/qvarlengtharray.h \
- /usr/local/include/QtCore/q20memory.h /usr/local/include/QtCore/QDebug \
- /usr/local/include/QtCore/qdebug.h \
- /usr/local/include/pxr/usd/usd/primRange.h \
- /usr/local/include/pxr/usd/usd/references.h \
- /usr/local/include/pxr/usd/usdGeom/camera.h \
- /usr/local/include/pxr/usd/usdGeom/api.h \
- /usr/local/include/pxr/usd/usdGeom/xformable.h \
- /usr/local/include/pxr/usd/usdGeom/imageable.h \
- /usr/local/include/pxr/usd/usd/typed.h \
- /usr/local/include/pxr/usd/usd/schemaBase.h \
- /usr/local/include/pxr/usd/usd/attribute.h \
- /usr/local/include/pxr/usd/usd/property.h \
- /usr/local/include/pxr/usd/usd/resolveInfo.h \
- /usr/local/include/pxr/base/gf/interval.h \
- /usr/local/include/pxr/usd/usd/relationship.h \
- /usr/local/include/pxr/usd/usdGeom/tokens.h \
- /usr/local/include/pxr/usd/usdGeom/primvar.h \
- /usr/local/include/pxr/usd/usdGeom/xformOp.h \
- /usr/local/include/pxr/usd/usd/attributeQuery.h \
- /usr/local/include/pxr/usd/usd/resolveTarget.h \
- /usr/local/include/pxr/usd/usdGeom/xformCommonAPI.h \
- /usr/local/include/pxr/usd/usd/apiSchemaBase.h \
- /usr/local/include/pxr/imaging/glf/simpleLightingContext.h \
- /usr/local/include/pxr/imaging/glf/simpleShadowArray.h \
- /usr/local/include/pxr/imaging/garch/glApi.h
+ /workspaces/make_usd_great_again/src/Viewer/sceneCamera.h

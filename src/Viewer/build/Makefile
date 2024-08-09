@@ -180,6 +180,30 @@ scene.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/viewer.dir/build.make CMakeFiles/viewer.dir/scene.cpp.s
 .PHONY : scene.cpp.s
 
+sceneCamera.o: sceneCamera.cpp.o
+.PHONY : sceneCamera.o
+
+# target to build an object file
+sceneCamera.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/viewer.dir/build.make CMakeFiles/viewer.dir/sceneCamera.cpp.o
+.PHONY : sceneCamera.cpp.o
+
+sceneCamera.i: sceneCamera.cpp.i
+.PHONY : sceneCamera.i
+
+# target to preprocess a source file
+sceneCamera.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/viewer.dir/build.make CMakeFiles/viewer.dir/sceneCamera.cpp.i
+.PHONY : sceneCamera.cpp.i
+
+sceneCamera.s: sceneCamera.cpp.s
+.PHONY : sceneCamera.s
+
+# target to generate assembly for a file
+sceneCamera.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/viewer.dir/build.make CMakeFiles/viewer.dir/sceneCamera.cpp.s
+.PHONY : sceneCamera.cpp.s
+
 viewer.o: viewer.cpp.o
 .PHONY : viewer.o
 
@@ -219,6 +243,9 @@ help:
 	@echo "... scene.o"
 	@echo "... scene.i"
 	@echo "... scene.s"
+	@echo "... sceneCamera.o"
+	@echo "... sceneCamera.i"
+	@echo "... sceneCamera.s"
 	@echo "... viewer.o"
 	@echo "... viewer.i"
 	@echo "... viewer.s"

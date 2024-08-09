@@ -16,5 +16,11 @@
   "command": "/usr/local/bin/clang++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_WIDGETS_LIB -I/workspaces/make_usd_great_again/build -I/workspaces/make_usd_great_again/src/Viewer -I/usr/local/include/python3.11 -isystem /usr/local/include/QtWidgets -isystem /usr/local/include/QtCore -isystem /usr/local/include/QtGui -isystem /usr/local/include/QtOpenGL -isystem /usr/local/include/QtOpenGLWidgets -isystem /usr/local/res/archdatadir/mkspecs/linux-g++ -g -fPIC -pthread -o CMakeFiles/viewer.dir/scene.cpp.o -c /workspaces/make_usd_great_again/src/Viewer/scene.cpp",
   "file": "/workspaces/make_usd_great_again/src/Viewer/scene.cpp",
   "output": "CMakeFiles/viewer.dir/scene.cpp.o"
+},
+{
+  "directory": "/workspaces/make_usd_great_again/build",
+  "command": "/usr/local/bin/clang++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_WIDGETS_LIB -I/workspaces/make_usd_great_again/build -I/workspaces/make_usd_great_again/src/Viewer -I/usr/local/include/python3.11 -isystem /usr/local/include/QtWidgets -isystem /usr/local/include/QtCore -isystem /usr/local/include/QtGui -isystem /usr/local/include/QtOpenGL -isystem /usr/local/include/QtOpenGLWidgets -isystem /usr/local/res/archdatadir/mkspecs/linux-g++ -g -fPIC -pthread -o CMakeFiles/viewer.dir/sceneCamera.cpp.o -c /workspaces/make_usd_great_again/src/Viewer/sceneCamera.cpp",
+  "file": "/workspaces/make_usd_great_again/src/Viewer/sceneCamera.cpp",
+  "output": "CMakeFiles/viewer.dir/sceneCamera.cpp.o"
 }
 ]

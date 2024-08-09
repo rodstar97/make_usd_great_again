@@ -7,7 +7,7 @@ events:
       - "/usr/local/share/cmake-3.27/Modules/CMakeDetermineSystem.cmake:211 (message)"
       - "CMakeLists.txt:3 (project)"
     message: |
-      The system is: Linux - 6.8.0-38-generic - x86_64
+      The system is: Linux - 6.8.0-39-generic - x86_64
   -
     kind: "message-v1"
     backtrace:
@@ -39,8 +39,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/workspaces/make_usd_great_again/src/Viewer/build/CMakeFiles/CMakeScratch/TryCompile-DSpn3M"
-      binary: "/workspaces/make_usd_great_again/src/Viewer/build/CMakeFiles/CMakeScratch/TryCompile-DSpn3M"
+      source: "/workspaces/make_usd_great_again/src/Viewer/build/CMakeFiles/CMakeScratch/TryCompile-O2Nm21"
+      binary: "/workspaces/make_usd_great_again/src/Viewer/build/CMakeFiles/CMakeScratch/TryCompile-O2Nm21"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -49,13 +49,13 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/workspaces/make_usd_great_again/src/Viewer/build/CMakeFiles/CMakeScratch/TryCompile-DSpn3M'
+        Change Dir: '/workspaces/make_usd_great_again/src/Viewer/build/CMakeFiles/CMakeScratch/TryCompile-O2Nm21'
         
-        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /opt/rh/gcc-toolset-11/root/usr/bin/gmake -f Makefile cmTC_253b9/fast
-        /opt/rh/gcc-toolset-11/root/usr/bin/gmake  -f CMakeFiles/cmTC_253b9.dir/build.make CMakeFiles/cmTC_253b9.dir/build
-        gmake[1]: Entering directory '/workspaces/make_usd_great_again/src/Viewer/build/CMakeFiles/CMakeScratch/TryCompile-DSpn3M'
-        Building CXX object CMakeFiles/cmTC_253b9.dir/CMakeCXXCompilerABI.cpp.o
-        /opt/rh/gcc-toolset-11/root/usr/bin/c++   -v -o CMakeFiles/cmTC_253b9.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /opt/rh/gcc-toolset-11/root/usr/bin/gmake -f Makefile cmTC_1c50d/fast
+        /opt/rh/gcc-toolset-11/root/usr/bin/gmake  -f CMakeFiles/cmTC_1c50d.dir/build.make CMakeFiles/cmTC_1c50d.dir/build
+        gmake[1]: Entering directory '/workspaces/make_usd_great_again/src/Viewer/build/CMakeFiles/CMakeScratch/TryCompile-O2Nm21'
+        Building CXX object CMakeFiles/cmTC_1c50d.dir/CMakeCXXCompilerABI.cpp.o
+        /opt/rh/gcc-toolset-11/root/usr/bin/c++   -v -o CMakeFiles/cmTC_1c50d.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp
         Using built-in specs.
         COLLECT_GCC=/opt/rh/gcc-toolset-11/root/usr/bin/c++
         OFFLOAD_TARGET_NAMES=nvptx-none
@@ -65,8 +65,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 11.2.1 20220127 (Red Hat 11.2.1-9) (GCC) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_253b9.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_253b9.dir/'
-         /opt/rh/gcc-toolset-11/root/usr/libexec/gcc/x86_64-redhat-linux/11/cc1plus -quiet -v -D_GNU_SOURCE /usr/local/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_253b9.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/cczdmJdM.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_1c50d.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_1c50d.dir/'
+         /opt/rh/gcc-toolset-11/root/usr/libexec/gcc/x86_64-redhat-linux/11/cc1plus -quiet -v -D_GNU_SOURCE /usr/local/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_1c50d.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/ccIRcmAt.s
         GNU C++17 (GCC) version 11.2.1 20220127 (Red Hat 11.2.1-9) (x86_64-redhat-linux)
         	compiled by GNU C version 11.2.1 20220127 (Red Hat 11.2.1-9), GMP version 6.1.2, MPFR version 3.1.6-p2, MPC version 1.1.0, isl version isl-0.18-GMP
         
@@ -88,15 +88,15 @@ events:
         
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
         Compiler executable checksum: b5fae077e109f9638e39df70a5606295
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_253b9.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_253b9.dir/'
-         as -v --64 -o CMakeFiles/cmTC_253b9.dir/CMakeCXXCompilerABI.cpp.o /tmp/cczdmJdM.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_1c50d.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_1c50d.dir/'
+         as -v --64 -o CMakeFiles/cmTC_1c50d.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccIRcmAt.s
         GNU assembler version 2.36.1 (x86_64-redhat-linux) using BFD version version 2.36.1-4.el8_9
         COMPILER_PATH=/opt/rh/gcc-toolset-11/root/usr/libexec/gcc/x86_64-redhat-linux/11/:/opt/rh/gcc-toolset-11/root/usr/libexec/gcc/x86_64-redhat-linux/11/:/opt/rh/gcc-toolset-11/root/usr/libexec/gcc/x86_64-redhat-linux/:/opt/rh/gcc-toolset-11/root/usr/lib/gcc/x86_64-redhat-linux/11/:/opt/rh/gcc-toolset-11/root/usr/lib/gcc/x86_64-redhat-linux/
         LIBRARY_PATH=/opt/rh/gcc-toolset-11/root/usr/lib/gcc/x86_64-redhat-linux/11/:/opt/rh/gcc-toolset-11/root/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/local/cuda/lib64/stubs/:/opt/rh/gcc-toolset-11/root/usr/lib/gcc/x86_64-redhat-linux/11/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_253b9.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_253b9.dir/CMakeCXXCompilerABI.cpp.'
-        Linking CXX executable cmTC_253b9
-        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_253b9.dir/link.txt --verbose=1
-        /opt/rh/gcc-toolset-11/root/usr/bin/c++  -v CMakeFiles/cmTC_253b9.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_253b9 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_1c50d.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_1c50d.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_1c50d
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1c50d.dir/link.txt --verbose=1
+        /opt/rh/gcc-toolset-11/root/usr/bin/c++  -v CMakeFiles/cmTC_1c50d.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_1c50d 
         Using built-in specs.
         COLLECT_GCC=/opt/rh/gcc-toolset-11/root/usr/bin/c++
         COLLECT_LTO_WRAPPER=/opt/rh/gcc-toolset-11/root/usr/libexec/gcc/x86_64-redhat-linux/11/lto-wrapper
@@ -109,10 +109,10 @@ events:
         gcc version 11.2.1 20220127 (Red Hat 11.2.1-9) (GCC) 
         COMPILER_PATH=/opt/rh/gcc-toolset-11/root/usr/libexec/gcc/x86_64-redhat-linux/11/:/opt/rh/gcc-toolset-11/root/usr/libexec/gcc/x86_64-redhat-linux/11/:/opt/rh/gcc-toolset-11/root/usr/libexec/gcc/x86_64-redhat-linux/:/opt/rh/gcc-toolset-11/root/usr/lib/gcc/x86_64-redhat-linux/11/:/opt/rh/gcc-toolset-11/root/usr/lib/gcc/x86_64-redhat-linux/
         LIBRARY_PATH=/opt/rh/gcc-toolset-11/root/usr/lib/gcc/x86_64-redhat-linux/11/:/opt/rh/gcc-toolset-11/root/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/local/cuda/lib64/stubs/:/opt/rh/gcc-toolset-11/root/usr/lib/gcc/x86_64-redhat-linux/11/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_253b9' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_253b9.'
-         /opt/rh/gcc-toolset-11/root/usr/libexec/gcc/x86_64-redhat-linux/11/collect2 -plugin /opt/rh/gcc-toolset-11/root/usr/libexec/gcc/x86_64-redhat-linux/11/liblto_plugin.so -plugin-opt=/opt/rh/gcc-toolset-11/root/usr/libexec/gcc/x86_64-redhat-linux/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccRDskUS.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_253b9 /lib/../lib64/crt1.o /lib/../lib64/crti.o /opt/rh/gcc-toolset-11/root/usr/lib/gcc/x86_64-redhat-linux/11/crtbegin.o -L/opt/rh/gcc-toolset-11/root/usr/lib/gcc/x86_64-redhat-linux/11 -L/opt/rh/gcc-toolset-11/root/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/local/cuda/lib64/stubs -L/opt/rh/gcc-toolset-11/root/usr/lib/gcc/x86_64-redhat-linux/11/../../.. CMakeFiles/cmTC_253b9.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /opt/rh/gcc-toolset-11/root/usr/lib/gcc/x86_64-redhat-linux/11/crtend.o /lib/../lib64/crtn.o
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_253b9' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_253b9.'
-        gmake[1]: Leaving directory '/workspaces/make_usd_great_again/src/Viewer/build/CMakeFiles/CMakeScratch/TryCompile-DSpn3M'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_1c50d' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_1c50d.'
+         /opt/rh/gcc-toolset-11/root/usr/libexec/gcc/x86_64-redhat-linux/11/collect2 -plugin /opt/rh/gcc-toolset-11/root/usr/libexec/gcc/x86_64-redhat-linux/11/liblto_plugin.so -plugin-opt=/opt/rh/gcc-toolset-11/root/usr/libexec/gcc/x86_64-redhat-linux/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccaI0t1q.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_1c50d /lib/../lib64/crt1.o /lib/../lib64/crti.o /opt/rh/gcc-toolset-11/root/usr/lib/gcc/x86_64-redhat-linux/11/crtbegin.o -L/opt/rh/gcc-toolset-11/root/usr/lib/gcc/x86_64-redhat-linux/11 -L/opt/rh/gcc-toolset-11/root/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/local/cuda/lib64/stubs -L/opt/rh/gcc-toolset-11/root/usr/lib/gcc/x86_64-redhat-linux/11/../../.. CMakeFiles/cmTC_1c50d.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /opt/rh/gcc-toolset-11/root/usr/lib/gcc/x86_64-redhat-linux/11/crtend.o /lib/../lib64/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_1c50d' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_1c50d.'
+        gmake[1]: Leaving directory '/workspaces/make_usd_great_again/src/Viewer/build/CMakeFiles/CMakeScratch/TryCompile-O2Nm21'
         
       exitCode: 0
   -
@@ -152,13 +152,13 @@ events:
     message: |
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        ignore line: [Change Dir: '/workspaces/make_usd_great_again/src/Viewer/build/CMakeFiles/CMakeScratch/TryCompile-DSpn3M']
+        ignore line: [Change Dir: '/workspaces/make_usd_great_again/src/Viewer/build/CMakeFiles/CMakeScratch/TryCompile-O2Nm21']
         ignore line: []
-        ignore line: [Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /opt/rh/gcc-toolset-11/root/usr/bin/gmake -f Makefile cmTC_253b9/fast]
-        ignore line: [/opt/rh/gcc-toolset-11/root/usr/bin/gmake  -f CMakeFiles/cmTC_253b9.dir/build.make CMakeFiles/cmTC_253b9.dir/build]
-        ignore line: [gmake[1]: Entering directory '/workspaces/make_usd_great_again/src/Viewer/build/CMakeFiles/CMakeScratch/TryCompile-DSpn3M']
-        ignore line: [Building CXX object CMakeFiles/cmTC_253b9.dir/CMakeCXXCompilerABI.cpp.o]
-        ignore line: [/opt/rh/gcc-toolset-11/root/usr/bin/c++   -v -o CMakeFiles/cmTC_253b9.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /opt/rh/gcc-toolset-11/root/usr/bin/gmake -f Makefile cmTC_1c50d/fast]
+        ignore line: [/opt/rh/gcc-toolset-11/root/usr/bin/gmake  -f CMakeFiles/cmTC_1c50d.dir/build.make CMakeFiles/cmTC_1c50d.dir/build]
+        ignore line: [gmake[1]: Entering directory '/workspaces/make_usd_great_again/src/Viewer/build/CMakeFiles/CMakeScratch/TryCompile-O2Nm21']
+        ignore line: [Building CXX object CMakeFiles/cmTC_1c50d.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/opt/rh/gcc-toolset-11/root/usr/bin/c++   -v -o CMakeFiles/cmTC_1c50d.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/opt/rh/gcc-toolset-11/root/usr/bin/c++]
         ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
@@ -168,8 +168,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 11.2.1 20220127 (Red Hat 11.2.1-9) (GCC) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_253b9.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_253b9.dir/']
-        ignore line: [ /opt/rh/gcc-toolset-11/root/usr/libexec/gcc/x86_64-redhat-linux/11/cc1plus -quiet -v -D_GNU_SOURCE /usr/local/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_253b9.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/cczdmJdM.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_1c50d.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_1c50d.dir/']
+        ignore line: [ /opt/rh/gcc-toolset-11/root/usr/libexec/gcc/x86_64-redhat-linux/11/cc1plus -quiet -v -D_GNU_SOURCE /usr/local/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_1c50d.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/ccIRcmAt.s]
         ignore line: [GNU C++17 (GCC) version 11.2.1 20220127 (Red Hat 11.2.1-9) (x86_64-redhat-linux)]
         ignore line: [	compiled by GNU C version 11.2.1 20220127 (Red Hat 11.2.1-9)  GMP version 6.1.2  MPFR version 3.1.6-p2  MPC version 1.1.0  isl version isl-0.18-GMP]
         ignore line: []
@@ -191,15 +191,15 @@ events:
         ignore line: []
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
         ignore line: [Compiler executable checksum: b5fae077e109f9638e39df70a5606295]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_253b9.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_253b9.dir/']
-        ignore line: [ as -v --64 -o CMakeFiles/cmTC_253b9.dir/CMakeCXXCompilerABI.cpp.o /tmp/cczdmJdM.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_1c50d.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_1c50d.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_1c50d.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccIRcmAt.s]
         ignore line: [GNU assembler version 2.36.1 (x86_64-redhat-linux) using BFD version version 2.36.1-4.el8_9]
         ignore line: [COMPILER_PATH=/opt/rh/gcc-toolset-11/root/usr/libexec/gcc/x86_64-redhat-linux/11/:/opt/rh/gcc-toolset-11/root/usr/libexec/gcc/x86_64-redhat-linux/11/:/opt/rh/gcc-toolset-11/root/usr/libexec/gcc/x86_64-redhat-linux/:/opt/rh/gcc-toolset-11/root/usr/lib/gcc/x86_64-redhat-linux/11/:/opt/rh/gcc-toolset-11/root/usr/lib/gcc/x86_64-redhat-linux/]
         ignore line: [LIBRARY_PATH=/opt/rh/gcc-toolset-11/root/usr/lib/gcc/x86_64-redhat-linux/11/:/opt/rh/gcc-toolset-11/root/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/local/cuda/lib64/stubs/:/opt/rh/gcc-toolset-11/root/usr/lib/gcc/x86_64-redhat-linux/11/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_253b9.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_253b9.dir/CMakeCXXCompilerABI.cpp.']
-        ignore line: [Linking CXX executable cmTC_253b9]
-        ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_253b9.dir/link.txt --verbose=1]
-        ignore line: [/opt/rh/gcc-toolset-11/root/usr/bin/c++  -v CMakeFiles/cmTC_253b9.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_253b9 ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_1c50d.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_1c50d.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_1c50d]
+        ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1c50d.dir/link.txt --verbose=1]
+        ignore line: [/opt/rh/gcc-toolset-11/root/usr/bin/c++  -v CMakeFiles/cmTC_1c50d.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_1c50d ]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/opt/rh/gcc-toolset-11/root/usr/bin/c++]
         ignore line: [COLLECT_LTO_WRAPPER=/opt/rh/gcc-toolset-11/root/usr/libexec/gcc/x86_64-redhat-linux/11/lto-wrapper]
@@ -212,13 +212,13 @@ events:
         ignore line: [gcc version 11.2.1 20220127 (Red Hat 11.2.1-9) (GCC) ]
         ignore line: [COMPILER_PATH=/opt/rh/gcc-toolset-11/root/usr/libexec/gcc/x86_64-redhat-linux/11/:/opt/rh/gcc-toolset-11/root/usr/libexec/gcc/x86_64-redhat-linux/11/:/opt/rh/gcc-toolset-11/root/usr/libexec/gcc/x86_64-redhat-linux/:/opt/rh/gcc-toolset-11/root/usr/lib/gcc/x86_64-redhat-linux/11/:/opt/rh/gcc-toolset-11/root/usr/lib/gcc/x86_64-redhat-linux/]
         ignore line: [LIBRARY_PATH=/opt/rh/gcc-toolset-11/root/usr/lib/gcc/x86_64-redhat-linux/11/:/opt/rh/gcc-toolset-11/root/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/local/cuda/lib64/stubs/:/opt/rh/gcc-toolset-11/root/usr/lib/gcc/x86_64-redhat-linux/11/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_253b9' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_253b9.']
-        link line: [ /opt/rh/gcc-toolset-11/root/usr/libexec/gcc/x86_64-redhat-linux/11/collect2 -plugin /opt/rh/gcc-toolset-11/root/usr/libexec/gcc/x86_64-redhat-linux/11/liblto_plugin.so -plugin-opt=/opt/rh/gcc-toolset-11/root/usr/libexec/gcc/x86_64-redhat-linux/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccRDskUS.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_253b9 /lib/../lib64/crt1.o /lib/../lib64/crti.o /opt/rh/gcc-toolset-11/root/usr/lib/gcc/x86_64-redhat-linux/11/crtbegin.o -L/opt/rh/gcc-toolset-11/root/usr/lib/gcc/x86_64-redhat-linux/11 -L/opt/rh/gcc-toolset-11/root/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/local/cuda/lib64/stubs -L/opt/rh/gcc-toolset-11/root/usr/lib/gcc/x86_64-redhat-linux/11/../../.. CMakeFiles/cmTC_253b9.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /opt/rh/gcc-toolset-11/root/usr/lib/gcc/x86_64-redhat-linux/11/crtend.o /lib/../lib64/crtn.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_1c50d' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_1c50d.']
+        link line: [ /opt/rh/gcc-toolset-11/root/usr/libexec/gcc/x86_64-redhat-linux/11/collect2 -plugin /opt/rh/gcc-toolset-11/root/usr/libexec/gcc/x86_64-redhat-linux/11/liblto_plugin.so -plugin-opt=/opt/rh/gcc-toolset-11/root/usr/libexec/gcc/x86_64-redhat-linux/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccaI0t1q.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_1c50d /lib/../lib64/crt1.o /lib/../lib64/crti.o /opt/rh/gcc-toolset-11/root/usr/lib/gcc/x86_64-redhat-linux/11/crtbegin.o -L/opt/rh/gcc-toolset-11/root/usr/lib/gcc/x86_64-redhat-linux/11 -L/opt/rh/gcc-toolset-11/root/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/local/cuda/lib64/stubs -L/opt/rh/gcc-toolset-11/root/usr/lib/gcc/x86_64-redhat-linux/11/../../.. CMakeFiles/cmTC_1c50d.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /opt/rh/gcc-toolset-11/root/usr/lib/gcc/x86_64-redhat-linux/11/crtend.o /lib/../lib64/crtn.o]
           arg [/opt/rh/gcc-toolset-11/root/usr/libexec/gcc/x86_64-redhat-linux/11/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/opt/rh/gcc-toolset-11/root/usr/libexec/gcc/x86_64-redhat-linux/11/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/opt/rh/gcc-toolset-11/root/usr/libexec/gcc/x86_64-redhat-linux/11/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/tmp/ccRDskUS.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccaI0t1q.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -233,7 +233,7 @@ events:
           arg [-dynamic-linker] ==> ignore
           arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_253b9] ==> ignore
+          arg [cmTC_1c50d] ==> ignore
           arg [/lib/../lib64/crt1.o] ==> obj [/lib/../lib64/crt1.o]
           arg [/lib/../lib64/crti.o] ==> obj [/lib/../lib64/crti.o]
           arg [/opt/rh/gcc-toolset-11/root/usr/lib/gcc/x86_64-redhat-linux/11/crtbegin.o] ==> obj [/opt/rh/gcc-toolset-11/root/usr/lib/gcc/x86_64-redhat-linux/11/crtbegin.o]
@@ -243,7 +243,7 @@ events:
           arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
           arg [-L/usr/local/cuda/lib64/stubs] ==> dir [/usr/local/cuda/lib64/stubs]
           arg [-L/opt/rh/gcc-toolset-11/root/usr/lib/gcc/x86_64-redhat-linux/11/../../..] ==> dir [/opt/rh/gcc-toolset-11/root/usr/lib/gcc/x86_64-redhat-linux/11/../../..]
-          arg [CMakeFiles/cmTC_253b9.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [CMakeFiles/cmTC_1c50d.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
           arg [-lstdc++] ==> lib [stdc++]
           arg [-lm] ==> lib [m]
           arg [-lgcc_s] ==> lib [gcc_s]
@@ -283,8 +283,8 @@ events:
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "/workspaces/make_usd_great_again/src/Viewer/build/CMakeFiles/CMakeScratch/TryCompile-KkdJti"
-      binary: "/workspaces/make_usd_great_again/src/Viewer/build/CMakeFiles/CMakeScratch/TryCompile-KkdJti"
+      source: "/workspaces/make_usd_great_again/src/Viewer/build/CMakeFiles/CMakeScratch/TryCompile-xiSIlV"
+      binary: "/workspaces/make_usd_great_again/src/Viewer/build/CMakeFiles/CMakeScratch/TryCompile-xiSIlV"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -294,25 +294,25 @@ events:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: '/workspaces/make_usd_great_again/src/Viewer/build/CMakeFiles/CMakeScratch/TryCompile-KkdJti'
+        Change Dir: '/workspaces/make_usd_great_again/src/Viewer/build/CMakeFiles/CMakeScratch/TryCompile-xiSIlV'
         
-        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /opt/rh/gcc-toolset-11/root/usr/bin/gmake -f Makefile cmTC_28b1e/fast
-        /opt/rh/gcc-toolset-11/root/usr/bin/gmake  -f CMakeFiles/cmTC_28b1e.dir/build.make CMakeFiles/cmTC_28b1e.dir/build
-        gmake[1]: Entering directory '/workspaces/make_usd_great_again/src/Viewer/build/CMakeFiles/CMakeScratch/TryCompile-KkdJti'
-        Building CXX object CMakeFiles/cmTC_28b1e.dir/src.cxx.o
-        /opt/rh/gcc-toolset-11/root/usr/bin/c++ -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_28b1e.dir/src.cxx.o -c /workspaces/make_usd_great_again/src/Viewer/build/CMakeFiles/CMakeScratch/TryCompile-KkdJti/src.cxx
-        Linking CXX executable cmTC_28b1e
-        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_28b1e.dir/link.txt --verbose=1
-        /opt/rh/gcc-toolset-11/root/usr/bin/c++ CMakeFiles/cmTC_28b1e.dir/src.cxx.o -o cmTC_28b1e 
-        /opt/rh/gcc-toolset-11/root/usr/bin/ld: CMakeFiles/cmTC_28b1e.dir/src.cxx.o: in function `main':
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /opt/rh/gcc-toolset-11/root/usr/bin/gmake -f Makefile cmTC_8d754/fast
+        /opt/rh/gcc-toolset-11/root/usr/bin/gmake  -f CMakeFiles/cmTC_8d754.dir/build.make CMakeFiles/cmTC_8d754.dir/build
+        gmake[1]: Entering directory '/workspaces/make_usd_great_again/src/Viewer/build/CMakeFiles/CMakeScratch/TryCompile-xiSIlV'
+        Building CXX object CMakeFiles/cmTC_8d754.dir/src.cxx.o
+        /opt/rh/gcc-toolset-11/root/usr/bin/c++ -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_8d754.dir/src.cxx.o -c /workspaces/make_usd_great_again/src/Viewer/build/CMakeFiles/CMakeScratch/TryCompile-xiSIlV/src.cxx
+        Linking CXX executable cmTC_8d754
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8d754.dir/link.txt --verbose=1
+        /opt/rh/gcc-toolset-11/root/usr/bin/c++ CMakeFiles/cmTC_8d754.dir/src.cxx.o -o cmTC_8d754 
+        /opt/rh/gcc-toolset-11/root/usr/bin/ld: CMakeFiles/cmTC_8d754.dir/src.cxx.o: in function `main':
         src.cxx:(.text+0x2d): undefined reference to `pthread_create'
         /opt/rh/gcc-toolset-11/root/usr/bin/ld: src.cxx:(.text+0x39): undefined reference to `pthread_detach'
         /opt/rh/gcc-toolset-11/root/usr/bin/ld: src.cxx:(.text+0x45): undefined reference to `pthread_cancel'
         /opt/rh/gcc-toolset-11/root/usr/bin/ld: src.cxx:(.text+0x56): undefined reference to `pthread_join'
         collect2: error: ld returned 1 exit status
-        gmake[1]: *** [CMakeFiles/cmTC_28b1e.dir/build.make:99: cmTC_28b1e] Error 1
-        gmake[1]: Leaving directory '/workspaces/make_usd_great_again/src/Viewer/build/CMakeFiles/CMakeScratch/TryCompile-KkdJti'
-        gmake: *** [Makefile:127: cmTC_28b1e/fast] Error 2
+        gmake[1]: *** [CMakeFiles/cmTC_8d754.dir/build.make:99: cmTC_8d754] Error 1
+        gmake[1]: Leaving directory '/workspaces/make_usd_great_again/src/Viewer/build/CMakeFiles/CMakeScratch/TryCompile-xiSIlV'
+        gmake: *** [Makefile:127: cmTC_8d754/fast] Error 2
         
       exitCode: 2
   -
@@ -328,8 +328,8 @@ events:
     checks:
       - "Check if compiler accepts -pthread"
     directories:
-      source: "/workspaces/make_usd_great_again/src/Viewer/build/CMakeFiles/CMakeScratch/TryCompile-LGOVKq"
-      binary: "/workspaces/make_usd_great_again/src/Viewer/build/CMakeFiles/CMakeScratch/TryCompile-LGOVKq"
+      source: "/workspaces/make_usd_great_again/src/Viewer/build/CMakeFiles/CMakeScratch/TryCompile-FF2y4f"
+      binary: "/workspaces/make_usd_great_again/src/Viewer/build/CMakeFiles/CMakeScratch/TryCompile-FF2y4f"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -339,17 +339,17 @@ events:
       variable: "THREADS_HAVE_PTHREAD_ARG"
       cached: true
       stdout: |
-        Change Dir: '/workspaces/make_usd_great_again/src/Viewer/build/CMakeFiles/CMakeScratch/TryCompile-LGOVKq'
+        Change Dir: '/workspaces/make_usd_great_again/src/Viewer/build/CMakeFiles/CMakeScratch/TryCompile-FF2y4f'
         
-        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /opt/rh/gcc-toolset-11/root/usr/bin/gmake -f Makefile cmTC_153d5/fast
-        /opt/rh/gcc-toolset-11/root/usr/bin/gmake  -f CMakeFiles/cmTC_153d5.dir/build.make CMakeFiles/cmTC_153d5.dir/build
-        gmake[1]: Entering directory '/workspaces/make_usd_great_again/src/Viewer/build/CMakeFiles/CMakeScratch/TryCompile-LGOVKq'
-        Building CXX object CMakeFiles/cmTC_153d5.dir/CheckForPthreads.cxx.o
-        /opt/rh/gcc-toolset-11/root/usr/bin/c++    -o CMakeFiles/cmTC_153d5.dir/CheckForPthreads.cxx.o -c /workspaces/make_usd_great_again/src/Viewer/build/CMakeFiles/CMakeScratch/TryCompile-LGOVKq/CheckForPthreads.cxx
-        Linking CXX executable cmTC_153d5
-        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_153d5.dir/link.txt --verbose=1
-        /opt/rh/gcc-toolset-11/root/usr/bin/c++ CMakeFiles/cmTC_153d5.dir/CheckForPthreads.cxx.o -o cmTC_153d5  -pthread 
-        gmake[1]: Leaving directory '/workspaces/make_usd_great_again/src/Viewer/build/CMakeFiles/CMakeScratch/TryCompile-LGOVKq'
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /opt/rh/gcc-toolset-11/root/usr/bin/gmake -f Makefile cmTC_5d99d/fast
+        /opt/rh/gcc-toolset-11/root/usr/bin/gmake  -f CMakeFiles/cmTC_5d99d.dir/build.make CMakeFiles/cmTC_5d99d.dir/build
+        gmake[1]: Entering directory '/workspaces/make_usd_great_again/src/Viewer/build/CMakeFiles/CMakeScratch/TryCompile-FF2y4f'
+        Building CXX object CMakeFiles/cmTC_5d99d.dir/CheckForPthreads.cxx.o
+        /opt/rh/gcc-toolset-11/root/usr/bin/c++    -o CMakeFiles/cmTC_5d99d.dir/CheckForPthreads.cxx.o -c /workspaces/make_usd_great_again/src/Viewer/build/CMakeFiles/CMakeScratch/TryCompile-FF2y4f/CheckForPthreads.cxx
+        Linking CXX executable cmTC_5d99d
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5d99d.dir/link.txt --verbose=1
+        /opt/rh/gcc-toolset-11/root/usr/bin/c++ CMakeFiles/cmTC_5d99d.dir/CheckForPthreads.cxx.o -o cmTC_5d99d  -pthread 
+        gmake[1]: Leaving directory '/workspaces/make_usd_great_again/src/Viewer/build/CMakeFiles/CMakeScratch/TryCompile-FF2y4f'
         
       exitCode: 0
   -
@@ -371,8 +371,8 @@ events:
     checks:
       - "Performing Test HAVE_STDATOMIC"
     directories:
-      source: "/workspaces/make_usd_great_again/src/Viewer/build/CMakeFiles/CMakeScratch/TryCompile-TQOijd"
-      binary: "/workspaces/make_usd_great_again/src/Viewer/build/CMakeFiles/CMakeScratch/TryCompile-TQOijd"
+      source: "/workspaces/make_usd_great_again/src/Viewer/build/CMakeFiles/CMakeScratch/TryCompile-jvyNXt"
+      binary: "/workspaces/make_usd_great_again/src/Viewer/build/CMakeFiles/CMakeScratch/TryCompile-jvyNXt"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -382,17 +382,17 @@ events:
       variable: "HAVE_STDATOMIC"
       cached: true
       stdout: |
-        Change Dir: '/workspaces/make_usd_great_again/src/Viewer/build/CMakeFiles/CMakeScratch/TryCompile-TQOijd'
+        Change Dir: '/workspaces/make_usd_great_again/src/Viewer/build/CMakeFiles/CMakeScratch/TryCompile-jvyNXt'
         
-        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /opt/rh/gcc-toolset-11/root/usr/bin/gmake -f Makefile cmTC_82f99/fast
-        /opt/rh/gcc-toolset-11/root/usr/bin/gmake  -f CMakeFiles/cmTC_82f99.dir/build.make CMakeFiles/cmTC_82f99.dir/build
-        gmake[1]: Entering directory '/workspaces/make_usd_great_again/src/Viewer/build/CMakeFiles/CMakeScratch/TryCompile-TQOijd'
-        Building CXX object CMakeFiles/cmTC_82f99.dir/src.cxx.o
-        /opt/rh/gcc-toolset-11/root/usr/bin/c++ -DHAVE_STDATOMIC   -o CMakeFiles/cmTC_82f99.dir/src.cxx.o -c /workspaces/make_usd_great_again/src/Viewer/build/CMakeFiles/CMakeScratch/TryCompile-TQOijd/src.cxx
-        Linking CXX executable cmTC_82f99
-        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_82f99.dir/link.txt --verbose=1
-        /opt/rh/gcc-toolset-11/root/usr/bin/c++ CMakeFiles/cmTC_82f99.dir/src.cxx.o -o cmTC_82f99 
-        gmake[1]: Leaving directory '/workspaces/make_usd_great_again/src/Viewer/build/CMakeFiles/CMakeScratch/TryCompile-TQOijd'
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /opt/rh/gcc-toolset-11/root/usr/bin/gmake -f Makefile cmTC_29623/fast
+        /opt/rh/gcc-toolset-11/root/usr/bin/gmake  -f CMakeFiles/cmTC_29623.dir/build.make CMakeFiles/cmTC_29623.dir/build
+        gmake[1]: Entering directory '/workspaces/make_usd_great_again/src/Viewer/build/CMakeFiles/CMakeScratch/TryCompile-jvyNXt'
+        Building CXX object CMakeFiles/cmTC_29623.dir/src.cxx.o
+        /opt/rh/gcc-toolset-11/root/usr/bin/c++ -DHAVE_STDATOMIC   -o CMakeFiles/cmTC_29623.dir/src.cxx.o -c /workspaces/make_usd_great_again/src/Viewer/build/CMakeFiles/CMakeScratch/TryCompile-jvyNXt/src.cxx
+        Linking CXX executable cmTC_29623
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_29623.dir/link.txt --verbose=1
+        /opt/rh/gcc-toolset-11/root/usr/bin/c++ CMakeFiles/cmTC_29623.dir/src.cxx.o -o cmTC_29623 
+        gmake[1]: Leaving directory '/workspaces/make_usd_great_again/src/Viewer/build/CMakeFiles/CMakeScratch/TryCompile-jvyNXt'
         
       exitCode: 0
 ...

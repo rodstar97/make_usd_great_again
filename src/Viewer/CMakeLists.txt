@@ -28,7 +28,7 @@ find_library(USD_BOOST_PYTHON boost_python311 HINTS ${USD_LIBRARY_DIRECTORY})
 
 
 
-add_executable(viewer main.cpp viewer.cpp viewer.h scene.h scene.cpp)
+add_executable(viewer main.cpp viewer.cpp viewer.h scene.h scene.cpp sceneCamera.h sceneCamera.cpp)
 
 include_directories(${Qt6Widgets_INCLUDE_DIRS} ${Qt6OpenGL_INCLUDE_DIRS} ${Qt6OpenGLWidgets_INCLUDE_DIRS})
 include(${PXR_CONFIG_CMAKE})
@@ -72,6 +72,7 @@ target_link_libraries(viewer
 	usd_usdImagingGL
 	usd_gf
     usd_glf
+    usd_garch
   
     
 )

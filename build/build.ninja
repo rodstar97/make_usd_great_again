@@ -73,6 +73,14 @@ build CMakeFiles/viewer.dir/scene.cpp.o: CXX_COMPILER__viewer_unscanned_Debug /w
   OBJECT_DIR = CMakeFiles/viewer.dir
   OBJECT_FILE_DIR = CMakeFiles/viewer.dir
 
+build CMakeFiles/viewer.dir/sceneCamera.cpp.o: CXX_COMPILER__viewer_unscanned_Debug /workspaces/make_usd_great_again/src/Viewer/sceneCamera.cpp || cmake_object_order_depends_target_viewer
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_WIDGETS_LIB
+  DEP_FILE = CMakeFiles/viewer.dir/sceneCamera.cpp.o.d
+  FLAGS = -g -fPIC -pthread
+  INCLUDES = -I/workspaces/make_usd_great_again/build -I/workspaces/make_usd_great_again/src/Viewer -I/usr/local/include/python3.11 -isystem /usr/local/include/QtWidgets -isystem /usr/local/include/QtCore -isystem /usr/local/include/QtGui -isystem /usr/local/include/QtOpenGL -isystem /usr/local/include/QtOpenGLWidgets -isystem /usr/local/res/archdatadir/mkspecs/linux-g++
+  OBJECT_DIR = CMakeFiles/viewer.dir
+  OBJECT_FILE_DIR = CMakeFiles/viewer.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target viewer
@@ -81,9 +89,9 @@ build CMakeFiles/viewer.dir/scene.cpp.o: CXX_COMPILER__viewer_unscanned_Debug /w
 #############################################
 # Link the executable viewer
 
-build viewer: CXX_EXECUTABLE_LINKER__viewer_Debug CMakeFiles/viewer.dir/main.cpp.o CMakeFiles/viewer.dir/viewer.cpp.o CMakeFiles/viewer.dir/scene.cpp.o | /usr/local/lib/libOpenGL.so /usr/local/lib/libGLX.so /usr/lib64/libGLU.so /usr/local/lib/libpython3.11.so /usr/local/lib/libboost_python311.so /usr/local/lib/libQt6OpenGLWidgets.so.6.5.3 /usr/local/lib/libQt6Widgets.so.6.5.3 /usr/local/lib/libQt6OpenGL.so.6.5.3 /usr/local/lib/libQt6Gui.so.6.5.3 /usr/local/lib/libQt6Core.so.6.5.3 /usr/local/lib/libGLX.so /usr/local/lib/libOpenGL.so
+build viewer: CXX_EXECUTABLE_LINKER__viewer_Debug CMakeFiles/viewer.dir/main.cpp.o CMakeFiles/viewer.dir/viewer.cpp.o CMakeFiles/viewer.dir/scene.cpp.o CMakeFiles/viewer.dir/sceneCamera.cpp.o | /usr/local/lib/libOpenGL.so /usr/local/lib/libGLX.so /usr/lib64/libGLU.so /usr/local/lib/libpython3.11.so /usr/local/lib/libboost_python311.so /usr/local/lib/libQt6OpenGLWidgets.so.6.5.3 /usr/local/lib/libQt6Widgets.so.6.5.3 /usr/local/lib/libQt6OpenGL.so.6.5.3 /usr/local/lib/libQt6Gui.so.6.5.3 /usr/local/lib/libQt6Core.so.6.5.3 /usr/local/lib/libGLX.so /usr/local/lib/libOpenGL.so
   FLAGS = -g
-  LINK_LIBRARIES = -Wl,-rpath,/usr/local/lib  /usr/local/lib/libOpenGL.so  /usr/local/lib/libGLX.so  /usr/lib64/libGLU.so  /usr/local/lib/libpython3.11.so  /usr/local/lib/libboost_python311.so  /usr/local/lib/libQt6OpenGLWidgets.so.6.5.3  -lusd_kind  -lusd_sdf  -lusd_tf  -lusd_usd  -lusd_usdGeom  -lusd_usdUtils  -lusd_arch  -lusd_vt  -lusd_usdImagingGL  -lusd_gf  -lusd_glf  /usr/local/lib/libQt6Widgets.so.6.5.3  /usr/local/lib/libQt6OpenGL.so.6.5.3  /usr/local/lib/libQt6Gui.so.6.5.3  /usr/local/lib/libQt6Core.so.6.5.3  -pthread  /usr/local/lib/libGLX.so  /usr/local/lib/libOpenGL.so
+  LINK_LIBRARIES = -Wl,-rpath,/usr/local/lib  /usr/local/lib/libOpenGL.so  /usr/local/lib/libGLX.so  /usr/lib64/libGLU.so  /usr/local/lib/libpython3.11.so  /usr/local/lib/libboost_python311.so  /usr/local/lib/libQt6OpenGLWidgets.so.6.5.3  -lusd_kind  -lusd_sdf  -lusd_tf  -lusd_usd  -lusd_usdGeom  -lusd_usdUtils  -lusd_arch  -lusd_vt  -lusd_usdImagingGL  -lusd_gf  -lusd_glf  -lusd_garch  /usr/local/lib/libQt6Widgets.so.6.5.3  /usr/local/lib/libQt6OpenGL.so.6.5.3  /usr/local/lib/libQt6Gui.so.6.5.3  /usr/local/lib/libQt6Core.so.6.5.3  -pthread  /usr/local/lib/libGLX.so  /usr/local/lib/libOpenGL.so
   OBJECT_DIR = CMakeFiles/viewer.dir
   POST_BUILD = :
   PRE_LINK = :

@@ -7,7 +7,7 @@ events:
       - "/usr/local/share/cmake-3.27/Modules/CMakeDetermineSystem.cmake:211 (message)"
       - "CMakeLists.txt:3 (project)"
     message: |
-      The system is: Linux - 6.8.0-38-generic - x86_64
+      The system is: Linux - 6.8.0-39-generic - x86_64
   -
     kind: "message-v1"
     backtrace:
@@ -39,8 +39,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/workspaces/make_usd_great_again/build/CMakeFiles/CMakeScratch/TryCompile-n8SB51"
-      binary: "/workspaces/make_usd_great_again/build/CMakeFiles/CMakeScratch/TryCompile-n8SB51"
+      source: "/workspaces/make_usd_great_again/build/CMakeFiles/CMakeScratch/TryCompile-1wD5My"
+      binary: "/workspaces/make_usd_great_again/build/CMakeFiles/CMakeScratch/TryCompile-1wD5My"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -49,10 +49,10 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/workspaces/make_usd_great_again/build/CMakeFiles/CMakeScratch/TryCompile-n8SB51'
+        Change Dir: '/workspaces/make_usd_great_again/build/CMakeFiles/CMakeScratch/TryCompile-1wD5My'
         
-        Run Build Command(s): /usr/local/bin/ninja -v cmTC_dc58b
-        [1/2] /usr/local/bin/clang++   -v -MD -MT CMakeFiles/cmTC_dc58b.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_dc58b.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_dc58b.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s): /usr/local/bin/ninja -v cmTC_67de2
+        [1/2] /usr/local/bin/clang++   -v -MD -MT CMakeFiles/cmTC_67de2.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_67de2.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_67de2.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp
         clang version 17.0.1
         Target: x86_64-unknown-linux-gnu
         Thread model: posix
@@ -64,7 +64,7 @@ events:
         Selected multilib: .;@m64
         Found CUDA installation: /usr/local/cuda, version 
          (in-process)
-         "/usr/local/bin/clang++" -cc1 -triple x86_64-unknown-linux-gnu -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -v -fcoverage-compilation-dir=/workspaces/make_usd_great_again/build/CMakeFiles/CMakeScratch/TryCompile-n8SB51 -resource-dir /usr/local/lib/clang/17 -dependency-file CMakeFiles/cmTC_dc58b.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_dc58b.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -canonical-system-headers -internal-isystem /opt/rh/gcc-toolset-11/root/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11 -internal-isystem /opt/rh/gcc-toolset-11/root/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/x86_64-redhat-linux -internal-isystem /opt/rh/gcc-toolset-11/root/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/backward -internal-isystem /usr/local/lib/clang/17/include -internal-isystem /usr/local/include -internal-isystem /opt/rh/gcc-toolset-11/root/usr/lib/gcc/x86_64-redhat-linux/11/../../../../x86_64-redhat-linux/include -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdeprecated-macro -fdebug-compilation-dir=/workspaces/make_usd_great_again/build/CMakeFiles/CMakeScratch/TryCompile-n8SB51 -ferror-limit 19 -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_dc58b.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/local/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp
+         "/usr/local/bin/clang++" -cc1 -triple x86_64-unknown-linux-gnu -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -v -fcoverage-compilation-dir=/workspaces/make_usd_great_again/build/CMakeFiles/CMakeScratch/TryCompile-1wD5My -resource-dir /usr/local/lib/clang/17 -dependency-file CMakeFiles/cmTC_67de2.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_67de2.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -canonical-system-headers -internal-isystem /opt/rh/gcc-toolset-11/root/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11 -internal-isystem /opt/rh/gcc-toolset-11/root/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/x86_64-redhat-linux -internal-isystem /opt/rh/gcc-toolset-11/root/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/backward -internal-isystem /usr/local/lib/clang/17/include -internal-isystem /usr/local/include -internal-isystem /opt/rh/gcc-toolset-11/root/usr/lib/gcc/x86_64-redhat-linux/11/../../../../x86_64-redhat-linux/include -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdeprecated-macro -fdebug-compilation-dir=/workspaces/make_usd_great_again/build/CMakeFiles/CMakeScratch/TryCompile-1wD5My -ferror-limit 19 -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_67de2.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/local/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp
         clang -cc1 version 17.0.1 based upon LLVM 17.0.1 default target x86_64-unknown-linux-gnu
         ignoring nonexistent directory "/opt/rh/gcc-toolset-11/root/usr/lib/gcc/x86_64-redhat-linux/11/../../../../x86_64-redhat-linux/include"
         ignoring nonexistent directory "/include"
@@ -77,7 +77,7 @@ events:
          /usr/local/include
          /usr/include
         End of search list.
-        [2/2] : && /usr/local/bin/clang++  -v CMakeFiles/cmTC_dc58b.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_dc58b   && :
+        [2/2] : && /usr/local/bin/clang++  -v CMakeFiles/cmTC_67de2.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_67de2   && :
         clang version 17.0.1
         Target: x86_64-unknown-linux-gnu
         Thread model: posix
@@ -88,7 +88,7 @@ events:
         Candidate multilib: 32;@m32
         Selected multilib: .;@m64
         Found CUDA installation: /usr/local/cuda, version 
-         "/opt/rh/gcc-toolset-11/root/usr/lib/gcc/x86_64-redhat-linux/11/../../../../bin/ld" -pie --hash-style=gnu --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_dc58b /lib/../lib64/Scrt1.o /lib/../lib64/crti.o /opt/rh/gcc-toolset-11/root/usr/lib/gcc/x86_64-redhat-linux/11/crtbeginS.o -L/usr/local/bin/../lib/x86_64-unknown-linux-gnu -L/usr/local/lib/clang/17/lib/x86_64-unknown-linux-gnu -L/opt/rh/gcc-toolset-11/root/usr/lib/gcc/x86_64-redhat-linux/11 -L/opt/rh/gcc-toolset-11/root/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib64 -L/lib -L/usr/lib -L/usr/local/cuda/lib64/stubs CMakeFiles/cmTC_dc58b.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /opt/rh/gcc-toolset-11/root/usr/lib/gcc/x86_64-redhat-linux/11/crtendS.o /lib/../lib64/crtn.o
+         "/opt/rh/gcc-toolset-11/root/usr/lib/gcc/x86_64-redhat-linux/11/../../../../bin/ld" -pie --hash-style=gnu --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_67de2 /lib/../lib64/Scrt1.o /lib/../lib64/crti.o /opt/rh/gcc-toolset-11/root/usr/lib/gcc/x86_64-redhat-linux/11/crtbeginS.o -L/usr/local/bin/../lib/x86_64-unknown-linux-gnu -L/usr/local/lib/clang/17/lib/x86_64-unknown-linux-gnu -L/opt/rh/gcc-toolset-11/root/usr/lib/gcc/x86_64-redhat-linux/11 -L/opt/rh/gcc-toolset-11/root/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib64 -L/lib -L/usr/lib -L/usr/local/cuda/lib64/stubs CMakeFiles/cmTC_67de2.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /opt/rh/gcc-toolset-11/root/usr/lib/gcc/x86_64-redhat-linux/11/crtendS.o /lib/../lib64/crtn.o
         
       exitCode: 0
   -
@@ -126,10 +126,10 @@ events:
     message: |
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld\\.lld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        ignore line: [Change Dir: '/workspaces/make_usd_great_again/build/CMakeFiles/CMakeScratch/TryCompile-n8SB51']
+        ignore line: [Change Dir: '/workspaces/make_usd_great_again/build/CMakeFiles/CMakeScratch/TryCompile-1wD5My']
         ignore line: []
-        ignore line: [Run Build Command(s): /usr/local/bin/ninja -v cmTC_dc58b]
-        ignore line: [[1/2] /usr/local/bin/clang++   -v -MD -MT CMakeFiles/cmTC_dc58b.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_dc58b.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_dc58b.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): /usr/local/bin/ninja -v cmTC_67de2]
+        ignore line: [[1/2] /usr/local/bin/clang++   -v -MD -MT CMakeFiles/cmTC_67de2.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_67de2.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_67de2.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [clang version 17.0.1]
         ignore line: [Target: x86_64-unknown-linux-gnu]
         ignore line: [Thread model: posix]
@@ -144,7 +144,7 @@ events:
         ignore line: [@m64]
         ignore line: [Found CUDA installation: /usr/local/cuda  version ]
         ignore line: [ (in-process)]
-        ignore line: [ "/usr/local/bin/clang++" -cc1 -triple x86_64-unknown-linux-gnu -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -v -fcoverage-compilation-dir=/workspaces/make_usd_great_again/build/CMakeFiles/CMakeScratch/TryCompile-n8SB51 -resource-dir /usr/local/lib/clang/17 -dependency-file CMakeFiles/cmTC_dc58b.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_dc58b.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -canonical-system-headers -internal-isystem /opt/rh/gcc-toolset-11/root/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11 -internal-isystem /opt/rh/gcc-toolset-11/root/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/x86_64-redhat-linux -internal-isystem /opt/rh/gcc-toolset-11/root/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/backward -internal-isystem /usr/local/lib/clang/17/include -internal-isystem /usr/local/include -internal-isystem /opt/rh/gcc-toolset-11/root/usr/lib/gcc/x86_64-redhat-linux/11/../../../../x86_64-redhat-linux/include -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdeprecated-macro -fdebug-compilation-dir=/workspaces/make_usd_great_again/build/CMakeFiles/CMakeScratch/TryCompile-n8SB51 -ferror-limit 19 -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_dc58b.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/local/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [ "/usr/local/bin/clang++" -cc1 -triple x86_64-unknown-linux-gnu -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -v -fcoverage-compilation-dir=/workspaces/make_usd_great_again/build/CMakeFiles/CMakeScratch/TryCompile-1wD5My -resource-dir /usr/local/lib/clang/17 -dependency-file CMakeFiles/cmTC_67de2.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_67de2.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -canonical-system-headers -internal-isystem /opt/rh/gcc-toolset-11/root/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11 -internal-isystem /opt/rh/gcc-toolset-11/root/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/x86_64-redhat-linux -internal-isystem /opt/rh/gcc-toolset-11/root/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/backward -internal-isystem /usr/local/lib/clang/17/include -internal-isystem /usr/local/include -internal-isystem /opt/rh/gcc-toolset-11/root/usr/lib/gcc/x86_64-redhat-linux/11/../../../../x86_64-redhat-linux/include -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdeprecated-macro -fdebug-compilation-dir=/workspaces/make_usd_great_again/build/CMakeFiles/CMakeScratch/TryCompile-1wD5My -ferror-limit 19 -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_67de2.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/local/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [clang -cc1 version 17.0.1 based upon LLVM 17.0.1 default target x86_64-unknown-linux-gnu]
         ignore line: [ignoring nonexistent directory "/opt/rh/gcc-toolset-11/root/usr/lib/gcc/x86_64-redhat-linux/11/../../../../x86_64-redhat-linux/include"]
         ignore line: [ignoring nonexistent directory "/include"]
@@ -157,7 +157,7 @@ events:
         ignore line: [ /usr/local/include]
         ignore line: [ /usr/include]
         ignore line: [End of search list.]
-        ignore line: [[2/2] : && /usr/local/bin/clang++  -v CMakeFiles/cmTC_dc58b.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_dc58b   && :]
+        ignore line: [[2/2] : && /usr/local/bin/clang++  -v CMakeFiles/cmTC_67de2.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_67de2   && :]
         ignore line: [clang version 17.0.1]
         ignore line: [Target: x86_64-unknown-linux-gnu]
         ignore line: [Thread model: posix]
@@ -171,7 +171,7 @@ events:
         ignore line: [Selected multilib: .]
         ignore line: [@m64]
         ignore line: [Found CUDA installation: /usr/local/cuda  version ]
-        link line: [ "/opt/rh/gcc-toolset-11/root/usr/lib/gcc/x86_64-redhat-linux/11/../../../../bin/ld" -pie --hash-style=gnu --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_dc58b /lib/../lib64/Scrt1.o /lib/../lib64/crti.o /opt/rh/gcc-toolset-11/root/usr/lib/gcc/x86_64-redhat-linux/11/crtbeginS.o -L/usr/local/bin/../lib/x86_64-unknown-linux-gnu -L/usr/local/lib/clang/17/lib/x86_64-unknown-linux-gnu -L/opt/rh/gcc-toolset-11/root/usr/lib/gcc/x86_64-redhat-linux/11 -L/opt/rh/gcc-toolset-11/root/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib64 -L/lib -L/usr/lib -L/usr/local/cuda/lib64/stubs CMakeFiles/cmTC_dc58b.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /opt/rh/gcc-toolset-11/root/usr/lib/gcc/x86_64-redhat-linux/11/crtendS.o /lib/../lib64/crtn.o]
+        link line: [ "/opt/rh/gcc-toolset-11/root/usr/lib/gcc/x86_64-redhat-linux/11/../../../../bin/ld" -pie --hash-style=gnu --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_67de2 /lib/../lib64/Scrt1.o /lib/../lib64/crti.o /opt/rh/gcc-toolset-11/root/usr/lib/gcc/x86_64-redhat-linux/11/crtbeginS.o -L/usr/local/bin/../lib/x86_64-unknown-linux-gnu -L/usr/local/lib/clang/17/lib/x86_64-unknown-linux-gnu -L/opt/rh/gcc-toolset-11/root/usr/lib/gcc/x86_64-redhat-linux/11 -L/opt/rh/gcc-toolset-11/root/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib64 -L/lib -L/usr/lib -L/usr/local/cuda/lib64/stubs CMakeFiles/cmTC_67de2.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /opt/rh/gcc-toolset-11/root/usr/lib/gcc/x86_64-redhat-linux/11/crtendS.o /lib/../lib64/crtn.o]
           arg [/opt/rh/gcc-toolset-11/root/usr/lib/gcc/x86_64-redhat-linux/11/../../../../bin/ld] ==> ignore
           arg [-pie] ==> ignore
           arg [--hash-style=gnu] ==> ignore
@@ -181,7 +181,7 @@ events:
           arg [-dynamic-linker] ==> ignore
           arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_dc58b] ==> ignore
+          arg [cmTC_67de2] ==> ignore
           arg [/lib/../lib64/Scrt1.o] ==> obj [/lib/../lib64/Scrt1.o]
           arg [/lib/../lib64/crti.o] ==> obj [/lib/../lib64/crti.o]
           arg [/opt/rh/gcc-toolset-11/root/usr/lib/gcc/x86_64-redhat-linux/11/crtbeginS.o] ==> obj [/opt/rh/gcc-toolset-11/root/usr/lib/gcc/x86_64-redhat-linux/11/crtbeginS.o]
@@ -196,7 +196,7 @@ events:
           arg [-L/lib] ==> dir [/lib]
           arg [-L/usr/lib] ==> dir [/usr/lib]
           arg [-L/usr/local/cuda/lib64/stubs] ==> dir [/usr/local/cuda/lib64/stubs]
-          arg [CMakeFiles/cmTC_dc58b.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [CMakeFiles/cmTC_67de2.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
           arg [-lstdc++] ==> lib [stdc++]
           arg [-lm] ==> lib [m]
           arg [-lgcc_s] ==> lib [gcc_s]
@@ -241,8 +241,8 @@ events:
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "/workspaces/make_usd_great_again/build/CMakeFiles/CMakeScratch/TryCompile-gGjQvT"
-      binary: "/workspaces/make_usd_great_again/build/CMakeFiles/CMakeScratch/TryCompile-gGjQvT"
+      source: "/workspaces/make_usd_great_again/build/CMakeFiles/CMakeScratch/TryCompile-iFetoe"
+      binary: "/workspaces/make_usd_great_again/build/CMakeFiles/CMakeScratch/TryCompile-iFetoe"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -252,14 +252,14 @@ events:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: '/workspaces/make_usd_great_again/build/CMakeFiles/CMakeScratch/TryCompile-gGjQvT'
+        Change Dir: '/workspaces/make_usd_great_again/build/CMakeFiles/CMakeScratch/TryCompile-iFetoe'
         
-        Run Build Command(s): /usr/local/bin/ninja -v cmTC_551a4
-        [1/2] /usr/local/bin/clang++ -DCMAKE_HAVE_LIBC_PTHREAD   -MD -MT CMakeFiles/cmTC_551a4.dir/src.cxx.o -MF CMakeFiles/cmTC_551a4.dir/src.cxx.o.d -o CMakeFiles/cmTC_551a4.dir/src.cxx.o -c /workspaces/make_usd_great_again/build/CMakeFiles/CMakeScratch/TryCompile-gGjQvT/src.cxx
-        [2/2] : && /usr/local/bin/clang++   CMakeFiles/cmTC_551a4.dir/src.cxx.o -o cmTC_551a4   && :
-        FAILED: cmTC_551a4 
-        : && /usr/local/bin/clang++   CMakeFiles/cmTC_551a4.dir/src.cxx.o -o cmTC_551a4   && :
-        /opt/rh/gcc-toolset-11/root/usr/lib/gcc/x86_64-redhat-linux/11/../../../../bin/ld: CMakeFiles/cmTC_551a4.dir/src.cxx.o: in function `main':
+        Run Build Command(s): /usr/local/bin/ninja -v cmTC_74371
+        [1/2] /usr/local/bin/clang++ -DCMAKE_HAVE_LIBC_PTHREAD   -MD -MT CMakeFiles/cmTC_74371.dir/src.cxx.o -MF CMakeFiles/cmTC_74371.dir/src.cxx.o.d -o CMakeFiles/cmTC_74371.dir/src.cxx.o -c /workspaces/make_usd_great_again/build/CMakeFiles/CMakeScratch/TryCompile-iFetoe/src.cxx
+        [2/2] : && /usr/local/bin/clang++   CMakeFiles/cmTC_74371.dir/src.cxx.o -o cmTC_74371   && :
+        FAILED: cmTC_74371 
+        : && /usr/local/bin/clang++   CMakeFiles/cmTC_74371.dir/src.cxx.o -o cmTC_74371   && :
+        /opt/rh/gcc-toolset-11/root/usr/lib/gcc/x86_64-redhat-linux/11/../../../../bin/ld: CMakeFiles/cmTC_74371.dir/src.cxx.o: in function `main':
         src.cxx:(.text+0x22): undefined reference to `pthread_create'
         /opt/rh/gcc-toolset-11/root/usr/lib/gcc/x86_64-redhat-linux/11/../../../../bin/ld: src.cxx:(.text+0x2b): undefined reference to `pthread_detach'
         /opt/rh/gcc-toolset-11/root/usr/lib/gcc/x86_64-redhat-linux/11/../../../../bin/ld: src.cxx:(.text+0x34): undefined reference to `pthread_cancel'
@@ -281,8 +281,8 @@ events:
     checks:
       - "Check if compiler accepts -pthread"
     directories:
-      source: "/workspaces/make_usd_great_again/build/CMakeFiles/CMakeScratch/TryCompile-UakA7Y"
-      binary: "/workspaces/make_usd_great_again/build/CMakeFiles/CMakeScratch/TryCompile-UakA7Y"
+      source: "/workspaces/make_usd_great_again/build/CMakeFiles/CMakeScratch/TryCompile-PFg8IY"
+      binary: "/workspaces/make_usd_great_again/build/CMakeFiles/CMakeScratch/TryCompile-PFg8IY"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -292,11 +292,11 @@ events:
       variable: "THREADS_HAVE_PTHREAD_ARG"
       cached: true
       stdout: |
-        Change Dir: '/workspaces/make_usd_great_again/build/CMakeFiles/CMakeScratch/TryCompile-UakA7Y'
+        Change Dir: '/workspaces/make_usd_great_again/build/CMakeFiles/CMakeScratch/TryCompile-PFg8IY'
         
-        Run Build Command(s): /usr/local/bin/ninja -v cmTC_838c1
-        [1/2] /usr/local/bin/clang++    -MD -MT CMakeFiles/cmTC_838c1.dir/CheckForPthreads.cxx.o -MF CMakeFiles/cmTC_838c1.dir/CheckForPthreads.cxx.o.d -o CMakeFiles/cmTC_838c1.dir/CheckForPthreads.cxx.o -c /workspaces/make_usd_great_again/build/CMakeFiles/CMakeScratch/TryCompile-UakA7Y/CheckForPthreads.cxx
-        [2/2] : && /usr/local/bin/clang++   CMakeFiles/cmTC_838c1.dir/CheckForPthreads.cxx.o -o cmTC_838c1  -pthread && :
+        Run Build Command(s): /usr/local/bin/ninja -v cmTC_f9d2b
+        [1/2] /usr/local/bin/clang++    -MD -MT CMakeFiles/cmTC_f9d2b.dir/CheckForPthreads.cxx.o -MF CMakeFiles/cmTC_f9d2b.dir/CheckForPthreads.cxx.o.d -o CMakeFiles/cmTC_f9d2b.dir/CheckForPthreads.cxx.o -c /workspaces/make_usd_great_again/build/CMakeFiles/CMakeScratch/TryCompile-PFg8IY/CheckForPthreads.cxx
+        [2/2] : && /usr/local/bin/clang++   CMakeFiles/cmTC_f9d2b.dir/CheckForPthreads.cxx.o -o cmTC_f9d2b  -pthread && :
         
       exitCode: 0
   -
@@ -318,8 +318,8 @@ events:
     checks:
       - "Performing Test HAVE_STDATOMIC"
     directories:
-      source: "/workspaces/make_usd_great_again/build/CMakeFiles/CMakeScratch/TryCompile-J1xZHl"
-      binary: "/workspaces/make_usd_great_again/build/CMakeFiles/CMakeScratch/TryCompile-J1xZHl"
+      source: "/workspaces/make_usd_great_again/build/CMakeFiles/CMakeScratch/TryCompile-Oa8Tke"
+      binary: "/workspaces/make_usd_great_again/build/CMakeFiles/CMakeScratch/TryCompile-Oa8Tke"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -329,11 +329,11 @@ events:
       variable: "HAVE_STDATOMIC"
       cached: true
       stdout: |
-        Change Dir: '/workspaces/make_usd_great_again/build/CMakeFiles/CMakeScratch/TryCompile-J1xZHl'
+        Change Dir: '/workspaces/make_usd_great_again/build/CMakeFiles/CMakeScratch/TryCompile-Oa8Tke'
         
-        Run Build Command(s): /usr/local/bin/ninja -v cmTC_2f4c8
-        [1/2] /usr/local/bin/clang++ -DHAVE_STDATOMIC   -MD -MT CMakeFiles/cmTC_2f4c8.dir/src.cxx.o -MF CMakeFiles/cmTC_2f4c8.dir/src.cxx.o.d -o CMakeFiles/cmTC_2f4c8.dir/src.cxx.o -c /workspaces/make_usd_great_again/build/CMakeFiles/CMakeScratch/TryCompile-J1xZHl/src.cxx
-        [2/2] : && /usr/local/bin/clang++   CMakeFiles/cmTC_2f4c8.dir/src.cxx.o -o cmTC_2f4c8   && :
+        Run Build Command(s): /usr/local/bin/ninja -v cmTC_48244
+        [1/2] /usr/local/bin/clang++ -DHAVE_STDATOMIC   -MD -MT CMakeFiles/cmTC_48244.dir/src.cxx.o -MF CMakeFiles/cmTC_48244.dir/src.cxx.o.d -o CMakeFiles/cmTC_48244.dir/src.cxx.o -c /workspaces/make_usd_great_again/build/CMakeFiles/CMakeScratch/TryCompile-Oa8Tke/src.cxx
+        [2/2] : && /usr/local/bin/clang++   CMakeFiles/cmTC_48244.dir/src.cxx.o -o cmTC_48244   && :
         
       exitCode: 0
 ...

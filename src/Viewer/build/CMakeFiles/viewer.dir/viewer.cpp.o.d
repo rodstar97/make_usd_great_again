@@ -1651,6 +1651,26 @@ CMakeFiles/viewer.dir/viewer.cpp.o: \
  /usr/local/include/QtGui/qvector4d.h \
  /usr/local/include/QtGui/qquaternion.h \
  /usr/local/include/QtGui/qgenericmatrix.h \
+ /workspaces/make_usd_great_again/src/Viewer/sceneCamera.h \
+ /usr/local/include/pxr/usd/usdGeom/camera.h \
+ /usr/local/include/pxr/usd/usdGeom/api.h \
+ /usr/local/include/pxr/usd/usdGeom/xformable.h \
+ /usr/local/include/pxr/usd/usdGeom/imageable.h \
+ /usr/local/include/pxr/usd/usd/typed.h \
+ /usr/local/include/pxr/usd/usd/schemaBase.h \
+ /usr/local/include/pxr/usd/usd/attribute.h \
+ /usr/local/include/pxr/usd/usd/property.h \
+ /usr/local/include/pxr/usd/usd/resolveInfo.h \
+ /usr/local/include/pxr/base/gf/interval.h \
+ /usr/local/include/pxr/usd/usd/relationship.h \
+ /usr/local/include/pxr/usd/usd/references.h \
+ /usr/local/include/pxr/usd/usdGeom/tokens.h \
+ /usr/local/include/pxr/usd/usdGeom/primvar.h \
+ /usr/local/include/pxr/usd/usdGeom/xformOp.h \
+ /usr/local/include/pxr/usd/usd/attributeQuery.h \
+ /usr/local/include/pxr/usd/usd/resolveTarget.h \
+ /usr/local/include/pxr/usd/usdGeom/xformCommonAPI.h \
+ /usr/local/include/pxr/usd/usd/apiSchemaBase.h \
  /usr/local/include/QtGui/QVector2D /usr/local/include/QtGui/qvectornd.h \
  /usr/local/include/QtGui/QVector3D /usr/local/include/QtCore/QDebug \
  /usr/local/include/QtCore/qdebug.h /usr/local/include/QtCore/QTimer \

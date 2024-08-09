@@ -67,7 +67,8 @@ inline void Viewer::paintGL()
     // m_elapsed.restart();
     // update();
     //m_elapsed.restart();
-    //update(); 
+    update();
+    //glClearColor(1.0f, 1.0f, 1.0f, 1.0f);
 }
 
 
@@ -107,7 +108,8 @@ void Viewer::mouseMoveEvent(QMouseEvent* event)
     if (event->buttons() & Qt::RightButton) {
         qDebug() << diff.x() << diff.y() << "zoom";
         auto const zoomDelta = -diff.x() / width() + diff.y() / height();
-        usd_scene->ZoomCamera(zoomDelta);
+        usd_scene->GetSceneCamera().ZoomCamera(zoomDelta);
+        //usd_scene->ZoomCamera(zoomDelta);
         // pan
         // auto const panDelta = -diff.x() / width() * right + diff.y() / height() * up;
         // lookat_camera.cameraLocation += panDelta;
@@ -116,7 +118,10 @@ void Viewer::mouseMoveEvent(QMouseEvent* event)
 
     if (event->buttons() & Qt::MiddleButton) {
         qDebug() << diff.x() << diff.y() << "pan";
-
+        usd_scene->GetSceneCamera().PanCamera(pxr::GfVec2f(diff.x(), diff.y()));
+        //usd_scene->draw(width(), height());
+  
+        
         // pan
         // 
         // lookat_camera.cameraLocation += panDelta;
@@ -125,7 +130,7 @@ void Viewer::mouseMoveEvent(QMouseEvent* event)
 
     mousePressPosition = QVector2D(event->localPos());
     //usd_scene->set_camera(currentMatrix());
-    update();
+    //update();
 }
 
 void Viewer::wheelEvent(QWheelEvent* event)
@@ -153,9 +158,9 @@ void Viewer::mouseReleaseEvent(QMouseEvent* event)
     //update();
 }
 
-QMatrix4x4 Viewer::currentMatrix() const
-{
-    QMatrix4x4 viewMatrix;
-    viewMatrix.lookAt(lookat_camera.cameraLocation, lookat_camera.focusPoint, lookat_camera.up);
-    return viewMatrix;
-}
+// QMatrix4x4 Viewer::currentMatrix() const
+// {
+//     QMatrix4x4 viewMatrix;
+//     viewMatrix.lookAt(lookat_camera.cameraLocation, lookat_camera.focusPoint, lookat_camera.up);
+//     return viewMatrix;
+// }
